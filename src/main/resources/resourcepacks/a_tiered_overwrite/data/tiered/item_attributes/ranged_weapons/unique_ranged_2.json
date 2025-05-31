@@ -1,0 +1,61 @@
+{
+    "id": "tiered:unique_ranged_2",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/bow"
+        },
+        {
+            "tag": "minecraft:enchantable/crossbow"
+        }
+    ],
+    "weight": 1,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "ranged_weapon:damage",
+            "modifier": {
+                "name": "tiered:unique_ranged_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.35
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_damage",
+            "modifier": {
+                "name": "tiered:unique_ranged_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:unique_ranged_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:unique_ranged_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

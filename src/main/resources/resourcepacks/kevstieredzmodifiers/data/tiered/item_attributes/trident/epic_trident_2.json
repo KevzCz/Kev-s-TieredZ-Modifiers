@@ -1,0 +1,58 @@
+{
+    "id": "tiered:epic_trident_2",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/trident"
+        }
+    ],
+    "weight": 60,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:epic_trident_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.225
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:player.entity_interaction_range",
+            "modifier": {
+                "name": "tiered:epic_trident_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_damage",
+            "modifier": {
+                "name": "tiered:epic_trident_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:multistrike_chance",
+            "modifier": {
+                "name": "tiered:epic_trident_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.225
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

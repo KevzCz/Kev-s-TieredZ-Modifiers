@@ -1,0 +1,39 @@
+{
+    "id": "tiered:rare_heavy_mace_1",
+    "verifiers": [
+        {
+            "tag": "c:tools/mace"
+        },
+        {
+            "tag": "minecraft:enchantable/mace"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "minecraft:generic.attack_damage",
+            "modifier": {
+                "name": "tiered:rare_heavy_mace_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:generic.gravity",
+            "modifier": {
+                "name": "tiered:rare_heavy_mace_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

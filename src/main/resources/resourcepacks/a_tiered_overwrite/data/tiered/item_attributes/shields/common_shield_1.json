@@ -1,0 +1,50 @@
+{
+    "id": "tiered:common_shield_1",
+    "verifiers": [
+        {
+            "tag": "c:tools/shields"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:common_shield_1",
+                "operation": "ADD_VALUE",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:common_shield_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:common_shield_1",
+                "operation": "ADD_VALUE",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND",
+                "OFFHAND"
+            ]
+        }
+    ]
+}

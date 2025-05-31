@@ -1,0 +1,9 @@
+{
+  "items": [
+    "#c:tools/mace",
+    "#minecraft:enchantable/mace"
+  ],
+  "base": [
+    "minecraft:netherite_ingot"
+  ]
+}

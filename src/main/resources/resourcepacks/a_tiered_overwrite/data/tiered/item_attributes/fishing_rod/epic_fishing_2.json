@@ -1,0 +1,36 @@
+{
+    "id": "tiered:epic_fishing_2",
+    "verifiers": [
+        {
+            "id": "minecraft:fishing_rod"
+        }
+    ],
+    "weight": 8,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:epic_fishing_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+		  "optional_equipment_slots": [
+			"MAINHAND"
+		  ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:epic_fishing_2",
+                "operation": "ADD_VALUE",
+                "amount": 2
+            },
+		  "optional_equipment_slots": [
+			"MAINHAND"
+		  ]
+        }
+    ]
+}

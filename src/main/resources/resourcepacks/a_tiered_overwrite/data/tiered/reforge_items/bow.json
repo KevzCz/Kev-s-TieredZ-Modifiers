@@ -1,0 +1,10 @@
+{
+  "items": [
+    "#c:tools/bow",
+    "#c:tools/bows",
+    "#minecraft:enchantable/bow"
+  ],
+  "base": [
+    "minecraft:string"
+  ]
+}

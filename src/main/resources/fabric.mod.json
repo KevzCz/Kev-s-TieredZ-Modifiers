@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "kevs-tieredz-modifiers",
+	"version": "${version}",
+	"name": "Kev's TieredZ Modifiers",
+	"description": "Tons of new modifiers for you to discover!",
+	"authors": [
+		"KevzCz",
+		"Pixel Dream Studios"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/kevs-tieredz-modifiers",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU GPLv3",
+	"icon": "assets/kevs-tieredz-modifiers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pixeldreamstudios.kevstieredzmodifiers.KevsTieredZModifiers"
+		]
+	},
+	"mixins": [
+		"kevs-tieredz-modifiers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"tiered_more": "*",
+		"kevslibrary": ">=1.4.5",
+		"ranged_weapon_api": "*"
+	},
+	"suggests": {
+		"kevs-attributes-panel": "*"
+	}
+}

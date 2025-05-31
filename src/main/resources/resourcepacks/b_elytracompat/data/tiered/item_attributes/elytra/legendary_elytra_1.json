@@ -1,0 +1,50 @@
+{
+    "id": "tiered:legendary_elytra_1",
+    "verifiers": [
+        {
+            "id": "minecraft:elytra"
+        },
+        {
+            "tag": "c:elytra"
+        }
+    ],
+    "weight": 3,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:legendary_elytra_1",
+                "operation": "ADD_VALUE",
+                "amount": 4
+            },
+            "optional_equipment_slots": [
+                "CHEST"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:legendary_elytra_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "CHEST"
+            ]
+        },
+        {
+            "type": "mythicmetals:elytra_rocket_speed",
+            "modifier": {
+                "name": "tiered:legendary_elytra_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "CHEST"
+            ]
+        }
+    ]
+}

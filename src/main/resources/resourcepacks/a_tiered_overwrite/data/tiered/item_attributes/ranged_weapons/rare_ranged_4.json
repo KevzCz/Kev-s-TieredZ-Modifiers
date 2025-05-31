@@ -1,0 +1,50 @@
+{
+    "id": "tiered:rare_ranged_4",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/bow"
+        },
+        {
+            "tag": "minecraft:enchantable/crossbow"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "ranged_weapon:damage",
+            "modifier": {
+                "name": "tiered:rare_ranged_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "ranged_weapon:pull_time",
+            "modifier": {
+                "name": "tiered:rare_ranged_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": -0.075
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:rare_ranged_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

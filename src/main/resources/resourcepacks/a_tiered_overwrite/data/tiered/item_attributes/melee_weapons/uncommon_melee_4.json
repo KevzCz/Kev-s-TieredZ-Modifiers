@@ -1,0 +1,39 @@
+{
+    "id": "tiered:uncommon_melee_4",
+    "verifiers": [
+        {
+            "tag": "minecraft:swords"
+        },
+        {
+            "tag": "minecraft:enchantable/sword"
+        }
+    ],
+    "weight": 35,
+    "style": {
+        "color": "dark_green"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:uncommon_melee_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:player.sweeping_damage_ratio",
+            "modifier": {
+                "name": "tiered:uncommon_melee_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

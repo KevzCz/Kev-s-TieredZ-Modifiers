@@ -1,0 +1,10 @@
+{
+  "items": [
+    "#c:tools/fishing_rod",
+    "#c:tools/fishing_rods",
+    "#minecraft:enchantable/fishing"
+  ],
+  "base": [
+    "minecraft:string"
+  ]
+}

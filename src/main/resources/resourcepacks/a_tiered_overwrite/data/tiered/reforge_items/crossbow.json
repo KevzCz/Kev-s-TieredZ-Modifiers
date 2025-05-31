@@ -1,0 +1,10 @@
+{
+  "items": [
+    "#c:tools/crossbow",
+    "#c:tools/crossbows",
+    "#minecraft:enchantable/crossbow"
+  ],
+  "base": [
+    "minecraft:iron_ingot"
+  ]
+}

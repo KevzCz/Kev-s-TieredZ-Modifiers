@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.pixeldreamstudios.kevstieredzmodifiers.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"KevslibraryCompat"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,47 @@
+{
+    "id": "tiered:common_trident_2",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/trident"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:common_trident_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_damage",
+            "modifier": {
+                "name": "tiered:common_trident_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:multistrike_chance",
+            "modifier": {
+                "name": "tiered:common_trident_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.125
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}
