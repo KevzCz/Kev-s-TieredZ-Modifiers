@@ -1,11 +1,8 @@
 {
-    "id": "tiered:unique_elytra_1",
+    "id": "tiered:unique_lance_2",
     "verifiers": [
         {
-            "id": "minecraft:elytra"
-        },
-        {
-            "tag": "c:elytra"
+            "tag": "kevs:lance"
         }
     ],
     "weight": 1,
@@ -14,36 +11,36 @@
     },
     "attributes": [
         {
-            "type": "generic.max_health",
+            "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:unique_elytra_1",
-                "operation": "ADD_VALUE",
-                "amount": 6
+                "name": "tiered:epic_lance_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.65
             },
             "optional_equipment_slots": [
-                "CHEST"
+                "MAINHAND"
             ]
         },
         {
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:unique_elytra_1",
+                "name": "tiered:epic_lance_2",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.25
+                "amount": 0.85
             },
             "optional_equipment_slots": [
-                "CHEST"
+                "MAINHAND"
             ]
         },
         {
-            "type": "mythicmetals:elytra_rocket_speed",
+            "type": "kevslibrary:crit_chance",
             "modifier": {
-                "name": "tiered:unique_elytra_1",
-                "operation": "ADD_MULTIPLIED_TOTAL",
+                "name": "tiered:epic_lance_2",
+                "operation": "ADD_VALUE",
                 "amount": 0.225
             },
             "optional_equipment_slots": [
-                "CHEST"
+                "MAINHAND"
             ]
         }
     ]

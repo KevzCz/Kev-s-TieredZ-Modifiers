@@ -54,5 +54,47 @@
   "tiered:magical.label": "Magical",
   "tiered:natural.label": "Natural",
   "tiered:precise.label": "Precise",
-  "tiered:ruthless.label": "Ruthless"
+  "tiered:ruthless.label": "Ruthless",
+
+  "tiered:common_armor_5.label": "Common",
+  "tiered:common_armor_6.label": "Common",
+  "tiered:common_armor_7.label": "Common",
+
+  "tiered:uncommon_armor_5.label": "Uncommon",
+  "tiered:uncommon_armor_6.label": "Uncommon",
+  "tiered:uncommon_armor_7.label": "Uncommon",
+
+  "tiered:rare_armor_5.label": "Rare",
+  "tiered:rare_armor_6.label": "Rare",
+  "tiered:rare_armor_7.label": "Rare",
+
+  "tiered:epic_armor_5.label": "Epic",
+  "tiered:epic_armor_6.label": "Epic",
+  "tiered:epic_armor_7.label": "Epic",
+
+  "tiered:legendary_armor_5.label": "Legendary",
+  "tiered:legendary_armor_6.label": "Legendary",
+  "tiered:legendary_armor_7.label": "Legendary",
+
+  "tiered:unique_armor_5.label": "Unique",
+  "tiered:unique_armor_6.label": "Unique",
+  "tiered:unique_armor_7.label": "Unique",
+
+  "tiered:common_lance_1.label": "Common",
+  "tiered:common_lance_2.label": "Common",
+
+  "tiered:uncommon_lance_1.label": "Uncommon",
+  "tiered:uncommon_lance_2.label": "Uncommon",
+
+  "tiered:rare_lance_1.label": "Rare",
+  "tiered:rare_lance_2.label": "Rare",
+
+  "tiered:epic_lance_1.label": "Epic",
+  "tiered:epic_lance_2.label": "Epic",
+
+  "tiered:legendary_lance_1.label": "Legendary",
+  "tiered:legendary_lance_2.label": "Legendary",
+
+  "tiered:unique_lance_1.label": "Unique",
+  "tiered:unique_lance_2.label": "Unique"
 }

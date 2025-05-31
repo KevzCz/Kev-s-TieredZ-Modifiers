@@ -23,39 +23,39 @@
     },
     "attributes": [
         {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:rare_armor_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.03
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:rare_armor_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.04
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
             "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:rare_armor_7",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.55
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "generic.max_health",
-            "modifier": {
-                "name": "tiered:rare_armor_7",
-                "operation": "ADD_VALUE",
-                "amount": 6
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "generic.movement_speed",
-            "modifier": {
-                "name": "tiered:rare_armor_7",
-                "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.05
+                "amount": 0.175
             },
             "optional_equipment_slots": [
                 "FEET",

@@ -1,0 +1,47 @@
+{
+    "id": "tiered:epic_lance_1",
+    "verifiers": [
+        {
+            "tag": "kevs:lance"
+        }
+    ],
+    "weight": 6,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:epic_lance_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:epic_lance_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_chance",
+            "modifier": {
+                "name": "tiered:epic_lance_1",
+                "operation": "ADD_VALUE",
+                "amount": 0.25
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

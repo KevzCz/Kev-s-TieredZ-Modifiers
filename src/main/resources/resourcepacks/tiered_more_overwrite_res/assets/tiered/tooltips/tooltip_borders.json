@@ -39,7 +39,12 @@
                 "tiered:common_trident_1",
                 "tiered:common_trident_2",
                 "tiered:common_trident_3",
-                "tiered:common_trident_4"
+                "tiered:common_trident_4",
+                "tiered:common_armor_5",
+                "tiered:common_armor_6",
+                "tiered:common_armor_7",
+                "tiered:common_lance_1",
+                "tiered:common_lance_2"
 
             ]
         },
@@ -82,7 +87,13 @@
                 "tiered:uncommon_trident_1",
                 "tiered:uncommon_trident_2",
                 "tiered:uncommon_trident_3",
-                "tiered:uncommon_trident_4"
+                "tiered:uncommon_trident_4",
+                "tiered:uncommon_armor_5",
+                "tiered:uncommon_armor_6",
+                "tiered:uncommon_armor_7",
+                "tiered:uncommon_lance_1",
+                "tiered:uncommon_lance_2"
+
 
             ]
         },
@@ -126,6 +137,11 @@
                 "tiered:rare_trident_2",
                 "tiered:rare_trident_3",
                 "tiered:rare_trident_4",
+                "tiered:rare_armor_5",
+                "tiered:rare_armor_6",
+                "tiered:rare_armor_7",
+                "tiered:rare_lance_1",
+                "tiered:rare_lance_2",
                 "tiered:warding",
                 "tiered:lucky",
                 "tiered:wild",
@@ -179,7 +195,13 @@
                 "tiered:epic_trident_1",
                 "tiered:epic_trident_2",
                 "tiered:epic_trident_3",
-                "tiered:epic_trident_4"
+                "tiered:epic_trident_4",
+                "tiered:epic_armor_5",
+                "tiered:epic_armor_6",
+                "tiered:epic_armor_7",
+                "tiered:epic_lance_1",
+                "tiered:epic_lance_2"
+
 
             ]
         },
@@ -222,7 +244,13 @@
                 "tiered:legendary_trident_1",
                 "tiered:legendary_trident_2",
                 "tiered:legendary_trident_3",
-                "tiered:legendary_trident_4"
+                "tiered:legendary_trident_4",
+                "tiered:legendary_armor_5",
+                "tiered:legendary_armor_6",
+                "tiered:legendary_armor_7",
+                "tiered:legendary_lance_1",
+                "tiered:legendary_lance_2"
+
 
             ]
         },
@@ -265,7 +293,13 @@
                 "tiered:unique_trident_1",
                 "tiered:unique_trident_2",
                 "tiered:unique_trident_3",
-                "tiered:unique_trident_4"
+                "tiered:unique_trident_4",
+                "tiered:unique_armor_5",
+                "tiered:unique_armor_6",
+                "tiered:unique_armor_7",
+                "tiered:unique_lance_1",
+                "tiered:unique_lance_2"
+
 
             ]
         },

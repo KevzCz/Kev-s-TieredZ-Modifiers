@@ -37,11 +37,25 @@
             ]
         },
         {
-            "type": "generic.max_health",
+            "type": "kevslibrary:crit_chance",
             "modifier": {
                 "name": "tiered:common_armor_5",
                 "operation": "ADD_VALUE",
-                "amount": 0.5
+                "amount": 0.025
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:common_armor_5",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.025
             },
             "optional_equipment_slots": [
                 "FEET",

@@ -1,9 +1,0 @@
-{
-    "items": [
-        "minecraft:elytra",
-        "#c:elytra"
-    ],
-    "base": [
-        "minecraft:phantom_membrane"
-    ]
-}

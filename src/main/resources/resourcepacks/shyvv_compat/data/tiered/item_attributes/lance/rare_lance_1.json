@@ -1,28 +1,19 @@
 {
-    "id": "tiered:unique_tool_3",
+    "id": "tiered:rare_lance_1",
     "verifiers": [
         {
-            "tag": "minecraft:axes"
-        },
-        {
-            "tag": "minecraft:pickaxes"
-        },
-        {
-            "tag": "minecraft:shovels"
-        },
-        {
-            "tag": "minecraft:hoes"
+            "tag": "kevs:lance"
         }
     ],
-    "weight": 1,
+    "weight": 15,
     "style": {
-        "color": "light_purple"
+        "color": "blue"
     },
     "attributes": [
         {
-            "type": "minecraft:player.block_break_speed",
+            "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:unique_tool_3",
+                "name": "tiered:rare_lance_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.3
             },
@@ -31,22 +22,22 @@
             ]
         },
         {
-            "type": "generic.movement_speed",
+            "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:unique_tool_3",
+                "name": "tiered:rare_lance_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.2
+                "amount": 0.05
             },
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
         },
         {
-            "type": "player.block_interaction_range",
+            "type": "kevslibrary:crit_chance",
             "modifier": {
-                "name": "tiered:unique_tool_3",
+                "name": "tiered:rare_lance_1",
                 "operation": "ADD_VALUE",
-                "amount": 3
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "MAINHAND"

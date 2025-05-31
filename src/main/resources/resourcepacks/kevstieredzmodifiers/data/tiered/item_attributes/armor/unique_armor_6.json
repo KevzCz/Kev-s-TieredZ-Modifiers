@@ -23,11 +23,11 @@
     },
     "attributes": [
         {
-            "type": "generic.armor",
+            "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:unique_armor_6",
-                "operation": "ADD_VALUE",
-                "amount": 8
+                "name": "tiered:legendary_armor_6",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.5
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -37,11 +37,11 @@
             ]
         },
         {
-            "type": "generic.max_health",
+            "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:unique_armor_6",
-                "operation": "ADD_VALUE",
-                "amount": 6
+                "name": "tiered:legendary_armor_6",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.055
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -53,9 +53,9 @@
         {
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:unique_armor_6",
+                "name": "tiered:legendary_armor_6",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.5
+                "amount": 0.045
             },
             "optional_equipment_slots": [
                 "FEET",

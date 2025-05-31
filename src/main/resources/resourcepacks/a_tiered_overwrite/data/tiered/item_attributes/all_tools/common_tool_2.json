@@ -31,7 +31,7 @@
             ]
         },
         {
-            "type": "tiered:generic.dig_speed",
+            "type": "minecraft:player.block_break_speed",
             "modifier": {
                 "name": "tiered:common_tool_2",
                 "operation": "ADD_MULTIPLIED_TOTAL",

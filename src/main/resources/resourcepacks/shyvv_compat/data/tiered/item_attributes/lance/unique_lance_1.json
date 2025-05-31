@@ -1,32 +1,43 @@
 {
-    "id": "tiered:legendary_trident_2",
+    "id": "tiered:unique_lance_1",
     "verifiers": [
         {
-            "tag": "minecraft:enchantable/trident"
+            "tag": "kevs:lance"
         }
     ],
-    "weight": 2,
+    "weight": 1,
     "style": {
-        "color": "gold"
+        "color": "light_purple"
     },
     "attributes": [
         {
-            "type": "generic.attack_damage",
+            "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:legendary_trident_2",
+                "name": "tiered:legendary_lance_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.3
+                "amount": 0.85
             },
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
         },
         {
-            "type": "minecraft:player.entity_interaction_range",
+            "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:legendary_trident_2",
+                "name": "tiered:legendary_lance_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.225
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_chance",
+            "modifier": {
+                "name": "tiered:legendary_lance_1",
                 "operation": "ADD_VALUE",
-                "amount": 0.85
+                "amount": 0.45
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -35,20 +46,9 @@
         {
             "type": "kevslibrary:crit_damage",
             "modifier": {
-                "name": "tiered:legendary_trident_2",
+                "name": "tiered:legendary_lance_1",
                 "operation": "ADD_VALUE",
-                "amount": 0.35
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "kevslibrary:multistrike_chance",
-            "modifier": {
-                "name": "tiered:legendary_trident_2",
-                "operation": "ADD_VALUE",
-                "amount": 0.25
+                "amount": 0.45
             },
             "optional_equipment_slots": [
                 "MAINHAND"

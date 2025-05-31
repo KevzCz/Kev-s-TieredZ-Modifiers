@@ -37,11 +37,25 @@
             ]
         },
         {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:common_armor_6",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.025
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
             "type": "generic.movement_speed",
             "modifier": {
                 "name": "tiered:common_armor_6",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.06
+                "amount": 0.015
             },
             "optional_equipment_slots": [
                 "FEET",

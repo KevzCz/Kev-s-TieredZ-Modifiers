@@ -23,39 +23,39 @@
     },
     "attributes": [
         {
-            "type": "generic.armor",
-            "modifier": {
-                "name": "tiered:rare_armor_5",
-                "operation": "ADD_VALUE",
-                "amount": 6
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "generic.max_health",
-            "modifier": {
-                "name": "tiered:rare_armor_5",
-                "operation": "ADD_VALUE",
-                "amount": 5
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
             "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:rare_armor_5",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": -0.6
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_chance",
+            "modifier": {
+                "name": "tiered:rare_armor_5",
+                "operation": "ADD_VALUE",
+                "amount": 0.04
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:rare_armor_5",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.04
             },
             "optional_equipment_slots": [
                 "FEET",

@@ -23,11 +23,11 @@
     },
     "attributes": [
         {
-            "type": "generic.armor_toughness",
+            "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:epic_armor_6",
-                "operation": "ADD_VALUE",
-                "amount": 5
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.25
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -37,11 +37,11 @@
             ]
         },
         {
-            "type": "tiered:generic.durable",
+            "type": "generic.attack_damage",
             "modifier": {
                 "name": "tiered:epic_armor_6",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.65
+                "amount": 0.045
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -55,7 +55,7 @@
             "modifier": {
                 "name": "tiered:epic_armor_6",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.05
+                "amount": 0.035
             },
             "optional_equipment_slots": [
                 "FEET",

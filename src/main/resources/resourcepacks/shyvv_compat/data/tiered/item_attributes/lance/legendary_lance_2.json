@@ -1,41 +1,21 @@
 {
-    "id": "tiered:legendary_tool_4",
+    "id": "tiered:legendary_lance_2",
     "verifiers": [
         {
-            "tag": "minecraft:axes"
-        },
-        {
-            "tag": "minecraft:pickaxes"
-        },
-        {
-            "tag": "minecraft:shovels"
-        },
-        {
-            "tag": "minecraft:hoes"
+            "tag": "kevs:lance"
         }
     ],
-    "weight": 3,
+    "weight": 2,
     "style": {
         "color": "gold"
     },
     "attributes": [
         {
-            "type": "tiered:generic.durable",
+            "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:legendary_tool_4",
+                "name": "tiered:epic_lance_2",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.25
-            },
-            "optional_equipment_slots": [
-                "MAINHAND"
-            ]
-        },
-        {
-            "type": "minecraft:player.block_break_speed",
-            "modifier": {
-                "name": "tiered:legendary_tool_4",
-                "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.2
+                "amount": 0.45
             },
             "optional_equipment_slots": [
                 "MAINHAND"
@@ -44,8 +24,19 @@
         {
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:legendary_tool_4",
+                "name": "tiered:epic_lance_2",
                 "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.55
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_chance",
+            "modifier": {
+                "name": "tiered:epic_lance_2",
+                "operation": "ADD_VALUE",
                 "amount": 0.15
             },
             "optional_equipment_slots": [

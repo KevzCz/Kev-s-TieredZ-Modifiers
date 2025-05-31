@@ -23,11 +23,39 @@
     },
     "attributes": [
         {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:common_armor_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.02
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:common_armor_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.025
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
             "type": "tiered:generic.durable",
             "modifier": {
                 "name": "tiered:common_armor_7",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.05
+                "amount": 0.07
             },
             "optional_equipment_slots": [
                 "FEET",
