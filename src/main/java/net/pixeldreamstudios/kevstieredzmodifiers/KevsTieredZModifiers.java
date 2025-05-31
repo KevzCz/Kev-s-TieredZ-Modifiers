@@ -38,7 +38,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 		if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
-						Identifier.of(MOD_ID, "b_elytracompat"),
+						Identifier.of(MOD_ID, "b_mythicmetals_compat"),
 						modContainer,
 						ResourcePackActivationType.ALWAYS_ENABLED
 				);
