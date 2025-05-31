@@ -1,0 +1,68 @@
+{
+    "id": "tiered:legendary_armor_6",
+    "verifiers": [
+        {
+            "tag": "minecraft:head_armor"
+        },
+        {
+            "tag": "minecraft:chest_armor"
+        },
+        {
+            "tag": "minecraft:leg_armor"
+        },
+        {
+            "tag": "minecraft:foot_armor"
+        },
+		{
+			"tag": "minecraft:enchantable/armor"
+		}
+    ],
+    "weight": 6,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:legendary_armor_6",
+                "operation": "ADD_VALUE",
+                "amount": 6
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.armor_toughness",
+            "modifier": {
+                "name": "tiered:legendary_armor_6",
+                "operation": "ADD_VALUE",
+                "amount": 7
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:legendary_armor_6",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.7
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

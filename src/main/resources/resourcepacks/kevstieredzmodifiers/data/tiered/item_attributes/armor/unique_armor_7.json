@@ -1,0 +1,68 @@
+{
+    "id": "tiered:unique_armor_7",
+    "verifiers": [
+        {
+            "tag": "minecraft:head_armor"
+        },
+        {
+            "tag": "minecraft:chest_armor"
+        },
+        {
+            "tag": "minecraft:leg_armor"
+        },
+        {
+            "tag": "minecraft:foot_armor"
+        },
+		{
+			"tag": "minecraft:enchantable/armor"
+		}
+    ],
+    "weight": 5,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:unique_armor_7",
+                "operation": "ADD_VALUE",
+                "amount": 8
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:unique_armor_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:unique_armor_7",
+                "operation": "ADD_VALUE",
+                "amount": 6
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

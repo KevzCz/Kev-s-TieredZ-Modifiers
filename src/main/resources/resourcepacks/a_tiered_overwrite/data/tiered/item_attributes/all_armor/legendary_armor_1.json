@@ -12,7 +12,10 @@
         },
         {
             "tag": "minecraft:foot_armor"
-        }
+        },
+		{
+			"tag": "minecraft:enchantable/armor"
+		}
     ],
     "weight": 2,
     "style": {

@@ -18,6 +18,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+import java.text.DecimalFormat;
 import java.util.Set;
 import java.util.function.Consumer;
 
@@ -46,13 +47,13 @@ public abstract class KevslibraryCompat {
     private static final Set<Identifier> PERCENT_ATTRIBUTES = Set.of(
             DAMAGE, CRIT_DAMAGE, MULTISTRIKE_DAMAGE, CRIT_CHANCE, MULTISTRIKE_CHANCE, CHAIN_LIGHTNING_CHANCE, CHAIN_LIGHTNING_OVERLOAD_CHANCE,
             FIRE_TORNADO_CHANCE, FIRE_TORNADO_OVERLOAD_CHANCE, FROST_NOVA_CHANCE,ARCANE_RUPTURE_DAMAGE, SOUL_LINK_DAMAGE,
-            SOUL_LINK_CHANCE, ARCANE_RUPTURE_CHANCE
+            SOUL_LINK_CHANCE, ARCANE_RUPTURE_CHANCE, PET_INHERITANCE_RATIO
     );
 
     private static final Set<Identifier> FLAT_ATTRIBUTES = Set.of(
             MULTISTRIKE_COUNT,
             FROST_NOVA_COUNT, CHAIN_LIGHTNING_COUNT,
-            SOUL_LINK_DAMAGE, PET_INHERITANCE_RATIO
+            SOUL_LINK_DAMAGE
     );
 
     @Inject(
@@ -71,9 +72,11 @@ public abstract class KevslibraryCompat {
         MutableText tooltip = null;
 
         if (PERCENT_ATTRIBUTES.contains(id)) {
-            int percent = (int) Math.round(value * 100);
-            tooltip = Text.literal("+" + percent + "% ").append(Text.translatable(attribute.value().getTranslationKey())).formatted(Formatting.BLUE);
-        } else if (FLAT_ATTRIBUTES.contains(id)) {
+            DecimalFormat df = new DecimalFormat("#.##");
+            String formatted = "+" + df.format(value * 100) + "% ";
+            tooltip = Text.literal(formatted).append(Text.translatable(attribute.value().getTranslationKey())).formatted(Formatting.BLUE);
+        }
+        else if (FLAT_ATTRIBUTES.contains(id)) {
             tooltip = Text.literal("+" + value + " ").append(Text.translatable(attribute.value().getTranslationKey())).formatted(Formatting.BLUE);
         }
 

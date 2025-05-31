@@ -10,7 +10,7 @@
 	],
 	"contact": {
 		"homepage": "https://www.curseforge.com/minecraft/mc-mods/kevs-tieredz-modifiers",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/KevzCz/Kev-s-TieredZ-Modifiers"
 	},
 	"license": "GNU GPLv3",
 	"icon": "assets/kevs-tieredz-modifiers/icon.png",
@@ -31,6 +31,9 @@
 		"tiered_more": "*",
 		"kevslibrary": ">=1.4.5",
 		"ranged_weapon_api": "*"
+	},
+	"breaks": {
+		"tiered": "*"
 	},
 	"suggests": {
 		"kevs-attributes-panel": "*"

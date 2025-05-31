@@ -53,6 +53,17 @@
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
+        },
+        {
+            "type": "kevslibrary:multistrike_count",
+            "modifier": {
+                "name": "tiered:unique_trident_3",
+                "operation": "ADD_VALUE",
+                "amount": 4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
         }
     ]
 }

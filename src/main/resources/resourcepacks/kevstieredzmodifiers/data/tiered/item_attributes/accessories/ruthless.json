@@ -1,0 +1,42 @@
+{
+    "id": "tiered:ruthless",
+    "verifiers": [
+        {
+            "tag": "tclayer:all_trinket_items"
+        }
+    ],
+    "weight": 50,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "kevslibrary:damage",
+            "modifier": {
+                "name": "tiered:ruthless",
+                "operation": "ADD_VALUE",
+                "amount": 0.005
+            },
+            "optional_accessories_slots": [
+                "anklet",
+                "any",
+                "back",
+                "belt",
+                "cape",
+                "charm",
+                "face",
+                "hand",
+                "hat",
+                "necklace",
+                "ring",
+                "shoes",
+                "trinket_group_misc-quiver",
+                "trinket_group_spell-book",
+                "trinket_group_spell-quiver",
+                "trinket_group_spell-scroll",
+                "wrist"
+            ]
+
+        }
+    ]
+}

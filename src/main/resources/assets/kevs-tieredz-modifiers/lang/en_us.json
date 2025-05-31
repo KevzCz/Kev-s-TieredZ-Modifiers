@@ -11,6 +11,7 @@
   "tiered:legendary_light_mace_2.label": "Legendary Light",
   "tiered:unique_light_mace_1.label": "Unique Light",
   "tiered:unique_light_mace_2.label": "Unique Light",
+
   "tiered:common_heavy_mace_1.label": "Common Heavy",
   "tiered:common_heavy_mace_2.label": "Common Heavy",
   "tiered:uncommon_heavy_mace_1.label": "Uncommon Heavy",
@@ -23,6 +24,7 @@
   "tiered:legendary_heavy_mace_2.label": "Legendary Heavy",
   "tiered:unique_heavy_mace_1.label": "Unique Heavy",
   "tiered:unique_heavy_mace_2.label": "Unique Heavy",
+
   "tiered:common_trident_1.label": "Common",
   "tiered:common_trident_2.label": "Common",
   "tiered:common_trident_3.label": "Common",
@@ -46,5 +48,11 @@
   "tiered:unique_trident_1.label": "Unique",
   "tiered:unique_trident_2.label": "Unique",
   "tiered:unique_trident_3.label": "Unique",
-  "tiered:unique_trident_4.label": "Unique"
+  "tiered:unique_trident_4.label": "Unique",
+
+  "tiered:deadeye.label": "Deadeye",
+  "tiered:magical.label": "Magical",
+  "tiered:natural.label": "Natural",
+  "tiered:precise.label": "Precise",
+  "tiered:ruthless.label": "Ruthless"
 }

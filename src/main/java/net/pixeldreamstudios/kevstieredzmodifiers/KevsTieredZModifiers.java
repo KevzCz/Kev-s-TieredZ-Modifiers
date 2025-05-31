@@ -23,6 +23,13 @@ public class KevsTieredZModifiers implements ModInitializer {
 		});
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			ResourceManagerHelper.registerBuiltinResourcePack(
+					Identifier.of(MOD_ID, "tiered_more_overwrite_res"),
+					modContainer,
+					ResourcePackActivationType.ALWAYS_ENABLED
+			);
+		});
+		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+			ResourceManagerHelper.registerBuiltinResourcePack(
 					Identifier.of(MOD_ID, "kevstieredzmodifiers"),
 					modContainer,
 					ResourcePackActivationType.ALWAYS_ENABLED
@@ -32,6 +39,15 @@ public class KevsTieredZModifiers implements ModInitializer {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
 						Identifier.of(MOD_ID, "b_elytracompat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+		}
+		if (FabricLoader.getInstance().isModLoaded("shyvvtrials")) {
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "shyvv_compat"),
 						modContainer,
 						ResourcePackActivationType.ALWAYS_ENABLED
 				);
