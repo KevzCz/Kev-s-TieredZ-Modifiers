@@ -5,15 +5,13 @@ import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.Identifier;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class KevsTieredZModifiers implements ModInitializer {
 	public static final String MOD_ID = "kevs-tieredz-modifiers";
 
 	@Override
 	public void onInitialize() {
-		// Register default resource pack
+		// TIERED OVERRIDE
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			ResourceManagerHelper.registerBuiltinResourcePack(
 					Identifier.of(MOD_ID, "a_tiered_overwrite"),
@@ -28,6 +26,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 					ResourcePackActivationType.ALWAYS_ENABLED
 			);
 		});
+		// NEW MODIFIERS
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			ResourceManagerHelper.registerBuiltinResourcePack(
 					Identifier.of(MOD_ID, "kevstieredzmodifiers"),
@@ -35,6 +34,31 @@ public class KevsTieredZModifiers implements ModInitializer {
 					ResourcePackActivationType.ALWAYS_ENABLED
 			);
 		});
+		// SPELL POWER COMPAT
+		if (FabricLoader.getInstance().isModLoaded("spell_power")) {
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "spellblades_compat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "wandstaves_compat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "magic_armor_compat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+		}
+		// MYTHIC METALS COMPAT
 		if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
@@ -44,6 +68,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
+		// SHYVV'S TRIALS COMPAT
 		if (FabricLoader.getInstance().isModLoaded("shyvvtrials")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(

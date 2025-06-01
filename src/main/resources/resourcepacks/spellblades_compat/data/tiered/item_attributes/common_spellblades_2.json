@@ -1,0 +1,36 @@
+{
+    "id": "tiered:common_spellblades_2",
+    "verifiers": [
+        {
+            "tag": "rpgseries:weapon_type/spellblade"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "spell_power:generic",
+            "modifier": {
+                "name": "tiered:common_spellblades_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:crit_chance",
+            "modifier": {
+                "name": "tiered:common_spellblades_2",
+                "operation": "ADD_VALUE",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "tiered:rare_spellblades_2",
+  "verifiers": [
+    {
+      "tag": "rpgseries:weapon_type/spellblade"
+    }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:generic",
+      "modifier": {
+        "name": "tiered:rare_spellblades_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "kevslibrary:crit_damage",
+      "modifier": {
+        "name": "tiered:rare_spellblades_2",
+        "operation": "ADD_VALUE",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}
