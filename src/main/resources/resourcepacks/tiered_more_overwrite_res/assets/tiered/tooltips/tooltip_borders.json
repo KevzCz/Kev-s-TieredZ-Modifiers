@@ -44,7 +44,10 @@
                 "tiered:common_armor_6",
                 "tiered:common_armor_7",
                 "tiered:common_lance_1",
-                "tiered:common_lance_2"
+                "tiered:common_lance_2",
+                "tiered:common_spellblades_1",
+                "tiered:common_spellblades_2"
+
 
             ]
         },
@@ -92,7 +95,10 @@
                 "tiered:uncommon_armor_6",
                 "tiered:uncommon_armor_7",
                 "tiered:uncommon_lance_1",
-                "tiered:uncommon_lance_2"
+                "tiered:uncommon_lance_2",
+                "tiered:uncommon_spellblades_1",
+                "tiered:uncommon_spellblades_2"
+
 
 
             ]
@@ -142,6 +148,8 @@
                 "tiered:rare_armor_7",
                 "tiered:rare_lance_1",
                 "tiered:rare_lance_2",
+                "tiered:rare_spellblades_1",
+                "tiered:rare_spellblades_2",
                 "tiered:warding",
                 "tiered:lucky",
                 "tiered:wild",
@@ -200,7 +208,10 @@
                 "tiered:epic_armor_6",
                 "tiered:epic_armor_7",
                 "tiered:epic_lance_1",
-                "tiered:epic_lance_2"
+                "tiered:epic_lance_2",
+                "tiered:epic_spellblades_1",
+                "tiered:epic_spellblades_2"
+
 
 
             ]
@@ -249,7 +260,10 @@
                 "tiered:legendary_armor_6",
                 "tiered:legendary_armor_7",
                 "tiered:legendary_lance_1",
-                "tiered:legendary_lance_2"
+                "tiered:legendary_lance_2",
+                "tiered:legendary_spellblades_1",
+                "tiered:legendary_spellblades_2"
+
 
 
             ]
@@ -298,7 +312,10 @@
                 "tiered:unique_armor_6",
                 "tiered:unique_armor_7",
                 "tiered:unique_lance_1",
-                "tiered:unique_lance_2"
+                "tiered:unique_lance_2",
+                "tiered:unique_spellblades_1",
+                "tiered:unique_spellblades_2"
+
 
 
             ]

@@ -1,0 +1,39 @@
+{
+  "id": "tiered:rare_magic_3",
+  "verifiers": [
+    {
+      "tag": "rpg_series:weapon_type/damage_staff"
+    },
+    {
+      "tag": "rpg_series:weapon_type/damage_wand"
+    }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:critical_chance",
+      "modifier": {
+        "name": "tiered:rare_magic_3",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "minecraft:player.sweeping_damage_ratio",
+      "modifier": {
+        "name": "tiered:rare_magic_3",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

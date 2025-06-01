@@ -1,0 +1,61 @@
+{
+    "id": "tiered:unique_magic_4",
+    "verifiers": [
+        {
+            "tag": "rpg_series:weapon_type/damage_staff"
+        },
+        {
+            "tag": "rpg_series:weapon_type/damage_wand"
+        }
+    ],
+    "weight": 1,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "spell_power:generic",
+            "modifier": {
+                "name": "tiered:unique_magic_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.325
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:player.sweeping_damage_ratio",
+            "modifier": {
+                "name": "tiered:unique_magic_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.375
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:unique_magic_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.luck",
+            "modifier": {
+                "name": "tiered:unique_magic_4",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}
