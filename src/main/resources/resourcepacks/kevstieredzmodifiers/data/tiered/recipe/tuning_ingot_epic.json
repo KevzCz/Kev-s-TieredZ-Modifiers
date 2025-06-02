@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "tiered:tuning_ingot_rare"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tiered:tuning_ingot_epic"
+  }
+}
