@@ -1,0 +1,39 @@
+{
+  "id": "tiered:rare_melee_1",
+  "verifiers": [
+    {
+      "tag": "minecraft:swords"
+    },
+    {
+      "tag": "minecraft:enchantable/sword"
+    }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:rare_melee_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "kevslibrary:crit_chance",
+      "modifier": {
+        "name": "tiered:rare_melee_1",
+        "operation": "ADD_VALUE",
+        "amount": 0.075
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}
