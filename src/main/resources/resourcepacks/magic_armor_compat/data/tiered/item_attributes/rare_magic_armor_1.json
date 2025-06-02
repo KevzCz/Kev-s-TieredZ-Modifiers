@@ -1,61 +1,49 @@
 {
-    "id": "tiered:common_armor_5",
+    "id": "tiered:rare_magic_armor_1",
     "verifiers": [
         {
-            "tag": "minecraft:head_armor"
-        },
-        {
-            "tag": "minecraft:chest_armor"
-        },
-        {
-            "tag": "minecraft:leg_armor"
-        },
-        {
-            "tag": "minecraft:foot_armor"
-        },
-		{
-			"tag": "minecraft:enchantable/armor"
-		}
+            "tag": "rpg_series:armor_type/magic"
+        }
     ],
-    "weight": 75,
+    "weight": 15,
     "style": {
-        "color": "gray"
+        "color": "blue"
     },
     "attributes": [
         {
+            "type": "spell_power:generic",
+            "modifier": {
+                "name": "tiered:rare_magic_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.04
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:rare_magic_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.085
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:common_armor_5",
+                "name": "tiered:rare_magic_armor_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.07
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "kevslibrary:crit_chance",
-            "modifier": {
-                "name": "tiered:common_armor_5",
-                "operation": "ADD_VALUE",
-                "amount": 0.025
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "generic.armor",
-            "modifier": {
-                "name": "tiered:common_armor_5",
-                "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.05
+                "amount": 0.2
             },
             "optional_equipment_slots": [
                 "FEET",

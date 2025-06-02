@@ -46,9 +46,13 @@
                 "tiered:common_lance_1",
                 "tiered:common_lance_2",
                 "tiered:common_spellblades_1",
-                "tiered:common_spellblades_2"
-
-
+                "tiered:common_spellblades_2",
+                "tiered:common_magic_1",
+                "tiered:common_magic_2",
+                "tiered:common_magic_3",
+                "tiered:common_magic_4",
+                "tiered:common_magic_armor_1",
+                "tiered:common_magic_armor_2"
             ]
         },
         {
@@ -97,10 +101,13 @@
                 "tiered:uncommon_lance_1",
                 "tiered:uncommon_lance_2",
                 "tiered:uncommon_spellblades_1",
-                "tiered:uncommon_spellblades_2"
-
-
-
+                "tiered:uncommon_spellblades_2",
+                "tiered:uncommon_magic_1",
+                "tiered:uncommon_magic_2",
+                "tiered:uncommon_magic_3",
+                "tiered:uncommon_magic_4",
+                "tiered:uncommon_magic_armor_1",
+                "tiered:uncommon_magic_armor_2"
             ]
         },
         {
@@ -150,6 +157,12 @@
                 "tiered:rare_lance_2",
                 "tiered:rare_spellblades_1",
                 "tiered:rare_spellblades_2",
+                "tiered:rare_magic_1",
+                "tiered:rare_magic_2",
+                "tiered:rare_magic_3",
+                "tiered:rare_magic_4",
+                "tiered:rare_magic_armor_1",
+                "tiered:rare_magic_armor_2",
                 "tiered:warding",
                 "tiered:lucky",
                 "tiered:wild",
@@ -210,10 +223,13 @@
                 "tiered:epic_lance_1",
                 "tiered:epic_lance_2",
                 "tiered:epic_spellblades_1",
-                "tiered:epic_spellblades_2"
-
-
-
+                "tiered:epic_spellblades_2",
+                "tiered:epic_magic_1",
+                "tiered:epic_magic_2",
+                "tiered:epic_magic_3",
+                "tiered:epic_magic_4",
+                "tiered:epic_magic_armor_1",
+                "tiered:epic_magic_armor_2"
             ]
         },
         {
@@ -262,10 +278,13 @@
                 "tiered:legendary_lance_1",
                 "tiered:legendary_lance_2",
                 "tiered:legendary_spellblades_1",
-                "tiered:legendary_spellblades_2"
-
-
-
+                "tiered:legendary_spellblades_2",
+                "tiered:legendary_magic_1",
+                "tiered:legendary_magic_2",
+                "tiered:legendary_magic_3",
+                "tiered:legendary_magic_4",
+                "tiered:legendary_magic_armor_1",
+                "tiered:legendary_magic_armor_2"
             ]
         },
         {
@@ -314,10 +333,13 @@
                 "tiered:unique_lance_1",
                 "tiered:unique_lance_2",
                 "tiered:unique_spellblades_1",
-                "tiered:unique_spellblades_2"
-
-
-
+                "tiered:unique_spellblades_2",
+                "tiered:unique_magic_1",
+                "tiered:unique_magic_2",
+                "tiered:unique_magic_3",
+                "tiered:unique_magic_4",
+                "tiered:unique_magic_armor_1",
+                "tiered:unique_magic_armor_2"
             ]
         },
         {

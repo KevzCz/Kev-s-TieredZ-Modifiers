@@ -14,11 +14,11 @@
   },
   "attributes": [
     {
-      "type": "spell_power:generic",
+      "type": "spell_power:critical_chance",
       "modifier": {
         "name": "tiered:rare_magic_2",
         "operation": "ADD_MULTIPLIED_TOTAL",
-        "amount": 0.075
+        "amount": 0.1
       },
       "optional_equipment_slots": [
         "MAINHAND"

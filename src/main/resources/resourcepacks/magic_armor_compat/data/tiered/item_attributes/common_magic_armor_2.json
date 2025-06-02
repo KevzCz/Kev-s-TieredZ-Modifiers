@@ -1,0 +1,42 @@
+{
+    "id": "tiered:common_magic_armor_2",
+    "verifiers": [
+        {
+            "tag": "rpg_series:armor_type/magic"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:common_magic_armor_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "spell_power:resistance.generic",
+            "modifier": {
+                "name": "tiered:common_magic_armor_2",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.035
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

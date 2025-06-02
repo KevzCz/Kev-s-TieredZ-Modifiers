@@ -27,7 +27,7 @@
             "modifier": {
                 "name": "tiered:rare_armor_7",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.03
+                "amount": 0.085
             },
             "optional_equipment_slots": [
                 "FEET",

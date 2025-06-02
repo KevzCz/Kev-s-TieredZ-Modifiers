@@ -14,22 +14,22 @@
     },
     "attributes": [
         {
-            "type": "spell_power:generic",
+            "type": "spell_power:haste",
             "modifier": {
                 "name": "tiered:rare_magic_4",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.125
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"
             ]
         },
         {
-            "type": "minecraft:player.sweeping_damage_ratio",
+            "type": "kevslibrary:multistrike_chance",
             "modifier": {
                 "name": "tiered:rare_magic_4",
-                "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.225
+                "operation": "ADD_VALUE",
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"

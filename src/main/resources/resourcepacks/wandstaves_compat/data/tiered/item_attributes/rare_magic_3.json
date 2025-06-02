@@ -14,7 +14,7 @@
   },
   "attributes": [
     {
-      "type": "spell_power:critical_chance",
+      "type": "spell_power:generic",
       "modifier": {
         "name": "tiered:rare_magic_3",
         "operation": "ADD_MULTIPLIED_TOTAL",
@@ -25,11 +25,11 @@
       ]
     },
     {
-      "type": "minecraft:player.sweeping_damage_ratio",
+      "type": "spell_power:haste",
       "modifier": {
         "name": "tiered:rare_magic_3",
         "operation": "ADD_MULTIPLIED_TOTAL",
-        "amount": 0.2
+        "amount": 0.125
       },
       "optional_equipment_slots": [
         "MAINHAND"

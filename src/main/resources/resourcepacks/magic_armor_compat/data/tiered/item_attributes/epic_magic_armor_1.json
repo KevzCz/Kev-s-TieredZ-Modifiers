@@ -1,61 +1,49 @@
 {
-    "id": "tiered:common_armor_5",
+    "id": "tiered:epic_magic_armor_1",
     "verifiers": [
         {
-            "tag": "minecraft:head_armor"
-        },
-        {
-            "tag": "minecraft:chest_armor"
-        },
-        {
-            "tag": "minecraft:leg_armor"
-        },
-        {
-            "tag": "minecraft:foot_armor"
-        },
-		{
-			"tag": "minecraft:enchantable/armor"
-		}
+            "tag": "rpg_series:armor_type/magic"
+        }
     ],
-    "weight": 75,
+    "weight": 8,
     "style": {
-        "color": "gray"
+        "color": "dark_purple"
     },
     "attributes": [
         {
-            "type": "tiered:generic.durable",
+            "type": "spell_power:generic",
             "modifier": {
-                "name": "tiered:common_armor_5",
-                "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.07
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "kevslibrary:crit_chance",
-            "modifier": {
-                "name": "tiered:common_armor_5",
-                "operation": "ADD_VALUE",
-                "amount": 0.025
-            },
-            "optional_equipment_slots": [
-                "FEET",
-                "LEGS",
-                "CHEST",
-                "HEAD"
-            ]
-        },
-        {
-            "type": "generic.armor",
-            "modifier": {
-                "name": "tiered:common_armor_5",
+                "name": "tiered:epic_magic_armor_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:epic_magic_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "generic.max_health",
+            "modifier": {
+                "name": "tiered:epic_magic_armor_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "FEET",

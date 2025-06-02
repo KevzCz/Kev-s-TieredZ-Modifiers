@@ -1,12 +1,9 @@
 {
-    "id": "tiered:common_magic_1",
+    "id": "tiered:common_magic_armor_1",
     "verifiers": [
         {
-            "tag": "rpg_series:weapon_type/damage_staff"
-        },
-		{
-			"tag": "rpg_series:weapon_type/damage_wand"
-		}
+            "tag": "rpg_series:armor_type/magic"
+        }
     ],
     "weight": 75,
     "style": {
@@ -16,23 +13,29 @@
         {
             "type": "spell_power:generic",
             "modifier": {
-                "name": "tiered:common_magic_1",
+                "name": "tiered:common_magic_armor_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.075
+                "amount": 0.025
             },
             "optional_equipment_slots": [
-                "MAINHAND"
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
             ]
         },
         {
-            "type": "spell_power:critical_chance",
+            "type": "generic.max_health",
             "modifier": {
-                "name": "tiered:common_magic_1",
+                "name": "tiered:common_magic_armor_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.05
             },
             "optional_equipment_slots": [
-                "MAINHAND"
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
             ]
         }
     ]
