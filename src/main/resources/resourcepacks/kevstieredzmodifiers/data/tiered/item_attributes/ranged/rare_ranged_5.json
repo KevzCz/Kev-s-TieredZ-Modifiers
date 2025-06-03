@@ -1,5 +1,5 @@
 {
-    "id": "tiered:rare_ranged_1",
+    "id": "tiered:rare_ranged_5",
     "verifiers": [
         {
             "tag": "minecraft:enchantable/bow"
@@ -16,7 +16,7 @@
         {
             "type": "ranged_weapon:damage",
             "modifier": {
-                "name": "tiered:rare_ranged_1",
+                "name": "tiered:rare_ranged_5",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.1
             },
@@ -27,7 +27,7 @@
         {
             "type": "kevslibrary:multistrike_chance",
             "modifier": {
-                "name": "tiered:rare_ranged_1",
+                "name": "tiered:rare_ranged_5",
                 "operation": "ADD_VALUE",
                 "amount": 0.1
             },
@@ -38,7 +38,7 @@
         {
             "type": "tiered:generic.durable",
             "modifier": {
-                "name": "tiered:rare_ranged_1",
+                "name": "tiered:rare_ranged_5",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.1
             },
