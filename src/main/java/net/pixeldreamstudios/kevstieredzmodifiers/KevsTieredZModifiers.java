@@ -58,6 +58,16 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
+		// DRUIDS COMPAT
+		if (FabricLoader.getInstance().isModLoaded("druids")) {
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "druids_compat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+		}
 		// MYTHIC METALS COMPAT
 		if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {

@@ -1,0 +1,42 @@
+{
+    "id": "tiered:common_druid_1",
+    "verifiers": [
+        {
+            "tag": "tiered:druid_armor"
+        }
+    ],
+    "weight": 75,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:common_druid_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.03
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "druids:totem_health",
+            "modifier": {
+                "name": "tiered:common_druid_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

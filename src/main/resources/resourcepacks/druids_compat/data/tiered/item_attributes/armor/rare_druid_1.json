@@ -1,0 +1,56 @@
+{
+    "id": "tiered:rare_druid_1",
+    "verifiers": [
+        {
+            "tag": "tiered:druid_armor"
+        }
+    ],
+    "weight": 15,
+    "style": {
+        "color": "blue"
+    },
+    "attributes": [
+        {
+            "type": "generic.armor",
+            "modifier": {
+                "name": "tiered:rare_druid_1",
+                "operation": "ADD_VALUE",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "druids:totem_health",
+            "modifier": {
+                "name": "tiered:rare_druid_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 1
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:rare_druid_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.2
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        }
+    ]
+}

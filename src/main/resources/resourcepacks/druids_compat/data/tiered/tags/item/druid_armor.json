@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "druids:primalist_head",
+        "druids:primalist_chest",
+        "druids:primalist_legs",
+        "druids:primalist_feet",
+        "druids:primalist_netherite_head",
+        "druids:primalist_netherite_chest",
+        "druids:primalist_netherite_legs",
+        "druids:primalist_netherite_feet"
+    ]
+}

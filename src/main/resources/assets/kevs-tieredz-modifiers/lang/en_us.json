@@ -188,8 +188,14 @@
   "tiered:legendary_melee_6.label": "Legendary",
 
   "tiered:unique_melee_5.label": "Unique",
-  "tiered:unique_melee_6.label": "Unique"
+  "tiered:unique_melee_6.label": "Unique",
 
+  "tiered:common_druid_1.label": "Common",
+  "tiered:uncommon_druid_1.label": "Uncommon",
+  "tiered:rare_druid_1.label": "Rare",
+  "tiered:epic_druid_1.label": "Epic",
+  "tiered:legendary_druid_1.label": "Legendary",
+  "tiered:unique_druid_1.label": "Unique"
 
 
 
