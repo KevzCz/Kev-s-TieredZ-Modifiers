@@ -29,7 +29,7 @@
             "modifier": {
                 "name": "tiered:common_druid_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.5
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "FEET",
