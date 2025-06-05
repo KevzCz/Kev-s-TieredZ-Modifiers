@@ -13,7 +13,7 @@
         {
             "type": "generic.movement_speed",
             "modifier": {
-                "name": "tiered:legendary_lance_1",
+                "name": "tiered:unique_lance_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.85
             },
@@ -24,7 +24,7 @@
         {
             "type": "generic.attack_damage",
             "modifier": {
-                "name": "tiered:legendary_lance_1",
+                "name": "tiered:unique_lance_1",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.225
             },
@@ -35,7 +35,7 @@
         {
             "type": "kevslibrary:crit_chance",
             "modifier": {
-                "name": "tiered:legendary_lance_1",
+                "name": "tiered:unique_lance_1",
                 "operation": "ADD_VALUE",
                 "amount": 0.45
             },
@@ -46,7 +46,7 @@
         {
             "type": "kevslibrary:crit_damage",
             "modifier": {
-                "name": "tiered:legendary_lance_1",
+                "name": "tiered:unique_lance_1",
                 "operation": "ADD_VALUE",
                 "amount": 0.45
             },

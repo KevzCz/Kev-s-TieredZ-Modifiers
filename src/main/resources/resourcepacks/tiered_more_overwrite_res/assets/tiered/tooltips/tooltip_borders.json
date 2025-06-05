@@ -57,7 +57,8 @@
                 "tiered:common_magic_4",
                 "tiered:common_magic_armor_1",
                 "tiered:common_magic_armor_2",
-                "tiered:common_druid_1"
+                "tiered:common_druid_1",
+                "tiered:common_building_wand_1"
             ]
         },
         {
@@ -117,7 +118,8 @@
                 "tiered:uncommon_magic_4",
                 "tiered:uncommon_magic_armor_1",
                 "tiered:uncommon_magic_armor_2",
-                "tiered:uncommon_druid_1"
+                "tiered:uncommon_druid_1",
+                "tiered:uncommon_building_wand_1"
             ]
         },
         {
@@ -189,7 +191,9 @@
                 "tiered:natural",
                 "tiered:precise",
                 "tiered:ruthless",
-                "tiered:rare_druid_1"
+                "tiered:ferocious",
+                "tiered:rare_druid_1",
+                "tiered:rare_building_wand_1"
             ]
         },
         {
@@ -249,7 +253,8 @@
                 "tiered:epic_magic_4",
                 "tiered:epic_magic_armor_1",
                 "tiered:epic_magic_armor_2",
-                "tiered:epic_druid_1"
+                "tiered:epic_druid_1",
+                "tiered:epic_building_wand_1"
             ]
         },
         {
@@ -309,7 +314,8 @@
                 "tiered:legendary_magic_4",
                 "tiered:legendary_magic_armor_1",
                 "tiered:legendary_magic_armor_2",
-                "tiered:legendary_druid_1"
+                "tiered:legendary_druid_1",
+                "tiered:legendary_building_wand_1"
             ]
         },
         {
@@ -369,7 +375,8 @@
                 "tiered:unique_magic_4",
                 "tiered:unique_magic_armor_1",
                 "tiered:unique_magic_armor_2",
-                "tiered:unique_druid_1"
+                "tiered:unique_druid_1",
+                "tiered:unique_building_wand_1"
             ]
         },
         {

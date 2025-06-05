@@ -55,6 +55,7 @@
   "tiered:natural.label": "Natural",
   "tiered:precise.label": "Precise",
   "tiered:ruthless.label": "Ruthless",
+  "tiered:ferocious.label": "Ferocious",
 
   "tiered:common_armor_5.label": "Common",
   "tiered:common_armor_6.label": "Common",
@@ -195,8 +196,14 @@
   "tiered:rare_druid_1.label": "Rare",
   "tiered:epic_druid_1.label": "Epic",
   "tiered:legendary_druid_1.label": "Legendary",
-  "tiered:unique_druid_1.label": "Unique"
+  "tiered:unique_druid_1.label": "Unique",
 
+  "tiered:common_building_wand_1.label": "Common",
+  "tiered:uncommon_building_wand_1.label": "Uncommon",
+  "tiered:rare_building_wand_1.label": "Rare",
+  "tiered:epic_building_wand_1.label": "Epic",
+  "tiered:legendary_building_wand_1.label": "Legendary",
+  "tiered:unique_building_wand_1.label": "Unique"
 
 
 }

@@ -1,0 +1,47 @@
+{
+    "id": "tiered:epic_building_wand_1",
+    "verifiers": [
+        {
+            "tag": "kevs:building_wands"
+        }
+    ],
+    "weight": 6,
+    "style": {
+        "color": "dark_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:epic_building_wand_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.3
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:player.block_interaction_range",
+            "modifier": {
+                "name": "tiered:epic_building_wand_1",
+                "operation": "ADD_VALUE",
+                "amount": 2
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:epic_building_wand_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.4
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wands:stone_wand",
+    "wands:iron_wand",
+    "wands:diamond_wand",
+    "wands:netherite_wand"
+  ]
+}

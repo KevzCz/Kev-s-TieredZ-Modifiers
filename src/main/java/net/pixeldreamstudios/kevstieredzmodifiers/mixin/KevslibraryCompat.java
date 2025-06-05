@@ -25,35 +25,38 @@ import java.util.function.Consumer;
 @Mixin(ItemStack.class)
 @Environment(EnvType.CLIENT)
 public abstract class KevslibraryCompat {
-    private static final Identifier CRIT_CHANCE = Identifier.of("kevslibrary", "crit_chance");
-    private static final Identifier MULTISTRIKE_CHANCE = Identifier.of("kevslibrary", "multistrike_chance");
-    private static final Identifier CHAIN_LIGHTNING_CHANCE = Identifier.of("kevslibrary", "chain_lightning_chance");
-    private static final Identifier CHAIN_LIGHTNING_OVERLOAD_CHANCE = Identifier.of("kevslibrary", "chain_lightning_overload_chance");
-    private static final Identifier FIRE_TORNADO_CHANCE = Identifier.of("kevslibrary", "fire_tornado_chance");
-    private static final Identifier FIRE_TORNADO_OVERLOAD_CHANCE = Identifier.of("kevslibrary", "fire_tornado_overload_chance");
-    private static final Identifier FROST_NOVA_CHANCE = Identifier.of("kevslibrary", "frost_nova_chance");
-    private static final Identifier SOUL_LINK_CHANCE = Identifier.of("kevslibrary", "soul_link_chance");
-    private static final Identifier ARCANE_RUPTURE_CHANCE = Identifier.of("kevslibrary", "arcane_rupture_chance");
-    private static final Identifier DAMAGE = Identifier.of("kevslibrary", "damage");
-    private static final Identifier CRIT_DAMAGE = Identifier.of("kevslibrary", "crit_damage");
-    private static final Identifier MULTISTRIKE_DAMAGE = Identifier.of("kevslibrary", "multistrike_damage");
-    private static final Identifier MULTISTRIKE_COUNT = Identifier.of("kevslibrary", "multistrike_count");
-    private static final Identifier FROST_NOVA_COUNT = Identifier.of("kevslibrary", "frost_nova_count");
-    private static final Identifier CHAIN_LIGHTNING_COUNT = Identifier.of("kevslibrary", "chain_lightning_count");
-    private static final Identifier ARCANE_RUPTURE_DAMAGE = Identifier.of("kevslibrary", "arcane_rupture_damage");
-    private static final Identifier SOUL_LINK_DAMAGE = Identifier.of("kevslibrary", "soul_link_damage");
-    private static final Identifier PET_INHERITANCE_RATIO = Identifier.of("kevslibrary", "pet_inheritance_ratio");
+    private static final String MODID = "kevslibrary";
+    private static final Identifier CRIT_CHANCE = Identifier.of(MODID, "crit_chance");
+    private static final Identifier MULTISTRIKE_CHANCE = Identifier.of(MODID, "multistrike_chance");
+    private static final Identifier CHAIN_LIGHTNING_CHANCE = Identifier.of(MODID, "chain_lightning_chance");
+    private static final Identifier CHAIN_LIGHTNING_OVERLOAD_CHANCE = Identifier.of(MODID, "chain_lightning_overload_chance");
+    private static final Identifier FIRE_TORNADO_CHANCE = Identifier.of(MODID, "fire_tornado_chance");
+    private static final Identifier FIRE_TORNADO_OVERLOAD_CHANCE = Identifier.of(MODID, "fire_tornado_overload_chance");
+    private static final Identifier FROST_NOVA_CHANCE = Identifier.of(MODID, "frost_nova_chance");
+    private static final Identifier SOUL_LINK_CHANCE = Identifier.of(MODID, "soul_link_chance");
+    private static final Identifier ARCANE_RUPTURE_CHANCE = Identifier.of(MODID, "arcane_rupture_chance");
+    private static final Identifier DAMAGE = Identifier.of(MODID, "damage");
+    private static final Identifier CRIT_DAMAGE = Identifier.of(MODID, "crit_damage");
+    private static final Identifier MULTISTRIKE_DAMAGE = Identifier.of(MODID, "multistrike_damage");
+    private static final Identifier MULTISTRIKE_COUNT = Identifier.of(MODID, "multistrike_count");
+    private static final Identifier FROST_NOVA_COUNT = Identifier.of(MODID, "frost_nova_count");
+    private static final Identifier CHAIN_LIGHTNING_COUNT = Identifier.of(MODID, "chain_lightning_count");
+    private static final Identifier ARCANE_RUPTURE_DAMAGE = Identifier.of(MODID, "arcane_rupture_damage");
+    private static final Identifier SOUL_LINK_DAMAGE = Identifier.of(MODID, "soul_link_damage");
+    private static final Identifier PET_INHERITANCE_RATIO = Identifier.of(MODID, "pet_inheritance_ratio");
 
+    private static final Identifier ARMOR_PENETRATION = Identifier.of(MODID, "armor_penetration");
+    private static final Identifier ARMOR_PENETRATION_FLAT = Identifier.of(MODID, "armor_penetration_flat");
     private static final Set<Identifier> PERCENT_ATTRIBUTES = Set.of(
             DAMAGE, CRIT_DAMAGE, MULTISTRIKE_DAMAGE, CRIT_CHANCE, MULTISTRIKE_CHANCE, CHAIN_LIGHTNING_CHANCE, CHAIN_LIGHTNING_OVERLOAD_CHANCE,
             FIRE_TORNADO_CHANCE, FIRE_TORNADO_OVERLOAD_CHANCE, FROST_NOVA_CHANCE,ARCANE_RUPTURE_DAMAGE, SOUL_LINK_DAMAGE,
-            SOUL_LINK_CHANCE, ARCANE_RUPTURE_CHANCE, PET_INHERITANCE_RATIO
+            SOUL_LINK_CHANCE, ARCANE_RUPTURE_CHANCE, PET_INHERITANCE_RATIO, ARMOR_PENETRATION
     );
 
     private static final Set<Identifier> FLAT_ATTRIBUTES = Set.of(
             MULTISTRIKE_COUNT,
             FROST_NOVA_COUNT, CHAIN_LIGHTNING_COUNT,
-            SOUL_LINK_DAMAGE
+            SOUL_LINK_DAMAGE, ARMOR_PENETRATION_FLAT
     );
 
     @Inject(
@@ -66,7 +69,7 @@ public abstract class KevslibraryCompat {
                                    EntityAttributeModifier modifier, CallbackInfo ci) {
 
         Identifier id = Registries.ATTRIBUTE.getId(attribute.value());
-        if (id == null || !id.getNamespace().equals("kevslibrary")) return;
+        if (id == null || !id.getNamespace().equals(MODID)) return;
 
         double value = modifier.value();
         MutableText tooltip = null;

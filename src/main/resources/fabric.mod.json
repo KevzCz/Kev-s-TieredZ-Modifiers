@@ -29,7 +29,7 @@
 		"java": ">=21",
 		"fabric-api": "*",
 		"tiered_more": "*",
-		"kevslibrary": ">=1.4.5",
+		"kevslibrary": ">=1.5.1",
 		"ranged_weapon_api": "*"
 	},
 	"breaks": {

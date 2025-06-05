@@ -1,0 +1,48 @@
+{
+    "id": "tiered:common_building_wand_1",
+    "verifiers": [
+        {
+            "tag": "kevs:building_wands"
+        }
+    ],
+    "weight": 100,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "generic.movement_speed",
+            "modifier": {
+                "name": "tiered:common_building_wand_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "minecraft:player.block_interaction_range",
+            "modifier": {
+                "name": "tiered:common_building_wand_1",
+                "operation": "ADD_VALUE",
+                "amount": 0.5
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "tiered:generic.durable",
+            "modifier": {
+                "name": "tiered:common_building_wand_1",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+
+    ]
+}
