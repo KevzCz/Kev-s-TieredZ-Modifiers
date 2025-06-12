@@ -6,6 +6,9 @@
         },
         {
             "tag": "c:elytra"
+        },
+        {
+            "tag": "icarus:wings"
         }
     ],
     "weight": 35,
