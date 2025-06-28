@@ -1,5 +1,5 @@
 {
-    "id": "tiered:ruthless",
+    "id": "tiered:wild",
     "verifiers": [
         {
             "tag": "tclayer:all_trinket_items"
@@ -11,11 +11,11 @@
     },
     "attributes": [
         {
-            "type": "kevslibrary:damage",
+            "type": "minecraft:generic.attack_damage",
             "modifier": {
-                "name": "tiered:ruthless",
-                "operation": "ADD_VALUE",
-                "amount": 0.005
+                "name": "tiered:wild",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.01
             },
             "optional_accessories_slots": [
                 "anklet",

@@ -1,5 +1,5 @@
 {
-    "id": "tiered:ruthless",
+    "id": "tiered:healthy",
     "verifiers": [
         {
             "tag": "tclayer:all_trinket_items"
@@ -11,11 +11,11 @@
     },
     "attributes": [
         {
-            "type": "kevslibrary:damage",
+            "type": "minecraft:generic.max_health",
             "modifier": {
-                "name": "tiered:ruthless",
-                "operation": "ADD_VALUE",
-                "amount": 0.005
+                "name": "tiered:healthy",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.0125
             },
             "optional_accessories_slots": [
                 "anklet",
