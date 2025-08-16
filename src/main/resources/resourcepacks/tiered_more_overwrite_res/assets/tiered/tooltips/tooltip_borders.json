@@ -376,7 +376,8 @@
                 "tiered:unique_magic_armor_1",
                 "tiered:unique_magic_armor_2",
                 "tiered:unique_druid_1",
-                "tiered:unique_building_wand_1"
+                "tiered:unique_building_wand_1",
+                "tiered:special"
             ]
         },
         {
