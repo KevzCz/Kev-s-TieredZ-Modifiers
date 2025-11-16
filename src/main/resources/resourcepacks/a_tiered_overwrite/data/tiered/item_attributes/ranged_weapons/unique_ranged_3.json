@@ -14,10 +14,10 @@
     },
     "attributes": [
         {
-            "type": "kevslibrary:crit_chance",
+            "type": "critical_strike:chance",
             "modifier": {
                 "name": "tiered:unique_ranged_3",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.35
             },
             "optional_equipment_slots": [
@@ -25,10 +25,10 @@
             ]
         },
         {
-            "type": "kevslibrary:crit_damage",
+            "type": "critical_strike:damage",
             "modifier": {
                 "name": "tiered:unique_ranged_3",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.3
             },
             "optional_equipment_slots": [

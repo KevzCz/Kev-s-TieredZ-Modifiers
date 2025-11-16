@@ -22,10 +22,10 @@
             ]
         },
         {
-            "type": "kevslibrary:crit_damage",
+            "type": "critical_strike:damage",
             "modifier": {
                 "name": "tiered:common_trident_4",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.3
             },
             "optional_equipment_slots": [

@@ -37,10 +37,10 @@
             ]
         },
         {
-            "type": "kevslibrary:crit_chance",
+            "type": "critical_strike:chance",
             "modifier": {
                 "name": "tiered:uncommon_armor_5",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.035
             },
             "optional_equipment_slots": [

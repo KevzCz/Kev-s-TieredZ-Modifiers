@@ -33,10 +33,10 @@
             ]
         },
         {
-            "type": "kevslibrary:crit_chance",
+            "type": "critical_strike:chance",
             "modifier": {
                 "name": "tiered:epic_lance_1",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.25
             },
             "optional_equipment_slots": [

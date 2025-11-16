@@ -68,7 +68,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
-		// DRUIDS COMPAT
+		// BUILDING WANDS COMPAT
 		if (FabricLoader.getInstance().isModLoaded("wands")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(

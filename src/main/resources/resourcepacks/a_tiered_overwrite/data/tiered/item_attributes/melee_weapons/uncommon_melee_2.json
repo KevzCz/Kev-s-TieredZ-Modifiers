@@ -25,10 +25,10 @@
       ]
     },
     {
-      "type": "kevslibrary:crit_damage",
+      "type": "critical_strike:damage",
       "modifier": {
         "name": "tiered:uncommon_melee_2",
-        "operation": "ADD_VALUE",
+        "operation": "ADD_MULTIPLIED_BASE",
         "amount": 0.1
       },
       "optional_equipment_slots": [

@@ -11,10 +11,10 @@
     },
     "attributes": [
         {
-            "type": "kevslibrary:crit_chance",
+            "type": "critical_strike:chance",
             "modifier": {
                 "name": "tiered:precise",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.025
             },
             "optional_accessories_slots": [

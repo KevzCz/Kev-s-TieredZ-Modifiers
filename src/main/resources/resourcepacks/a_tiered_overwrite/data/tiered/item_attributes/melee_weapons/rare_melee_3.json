@@ -14,10 +14,10 @@
   },
   "attributes": [
     {
-      "type": "kevslibrary:crit_chance",
+      "type": "critical_strike:chance",
       "modifier": {
         "name": "tiered:rare_melee_3",
-        "operation": "ADD_VALUE",
+        "operation": "ADD_MULTIPLIED_BASE",
         "amount": 0.1
       },
       "optional_equipment_slots": [

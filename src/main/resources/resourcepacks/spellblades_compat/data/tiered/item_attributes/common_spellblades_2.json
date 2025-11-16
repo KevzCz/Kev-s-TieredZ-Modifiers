@@ -22,10 +22,10 @@
             ]
         },
         {
-            "type": "kevslibrary:crit_chance",
+            "type": "critical_strike:chance",
             "modifier": {
                 "name": "tiered:common_spellblades_2",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.05
             },
             "optional_equipment_slots": [

@@ -2,6 +2,9 @@
 	"required": true,
 	"package": "net.pixeldreamstudios.kevstieredzmodifiers.mixin",
 	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"KevsLibraryConfigMixin"
+	],
 	"client": [
 		"KevslibraryCompat"
 	],
