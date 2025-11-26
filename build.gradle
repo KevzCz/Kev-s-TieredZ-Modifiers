@@ -25,7 +25,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "maven.modrinth:libz:${libz_version}"
 	modImplementation "curse.maven:kevs-library-984932:7221045"
-	modImplementation name: 'tiered-1.1.0'
+	modImplementation name: 'tiered-1.1.1'
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	
 }

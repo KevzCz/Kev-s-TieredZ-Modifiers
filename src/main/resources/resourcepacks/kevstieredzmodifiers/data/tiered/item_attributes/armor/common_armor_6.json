@@ -17,7 +17,7 @@
 			"tag": "minecraft:enchantable/armor"
 		}
     ],
-    "weight": 75,
+    "weight": 50,
     "style": {
         "color": "gray"
     },

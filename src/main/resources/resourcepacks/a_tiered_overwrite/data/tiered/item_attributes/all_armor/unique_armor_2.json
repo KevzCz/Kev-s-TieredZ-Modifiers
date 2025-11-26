@@ -17,7 +17,7 @@
 			"tag": "minecraft:enchantable/armor"
 		}
     ],
-    "weight": 1,
+    "weight": 0,
     "style": {
         "color": "light_purple"
     },

@@ -28,7 +28,7 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"tiered_more": ">=1.1.0.1",
+		"tiered_more": ">=1.1.1",
 		"kevslibrary": ">=1.5.1",
 		"critical_strike": "*",
 		"ranged_weapon_api": "*"

@@ -5,7 +5,7 @@
             "tag": "tiered:druid_armor"
         }
     ],
-    "weight": 75,
+    "weight": 50,
     "style": {
         "color": "gray"
     },

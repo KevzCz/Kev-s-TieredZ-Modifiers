@@ -14,7 +14,7 @@
             "tag": "rpg_series:weapon_type/healing_wand"
         }
     ],
-    "weight": 75,
+    "weight": 50,
     "style": {
         "color": "gray"
     },
