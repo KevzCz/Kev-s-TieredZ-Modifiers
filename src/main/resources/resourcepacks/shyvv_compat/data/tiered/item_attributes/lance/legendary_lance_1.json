@@ -37,7 +37,7 @@
             "modifier": {
                 "name": "tiered:legendary_lance_1",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.325
+                "amount": 0.225
             },
             "optional_equipment_slots": [
                 "MAINHAND"

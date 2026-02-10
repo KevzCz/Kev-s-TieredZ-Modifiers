@@ -26,7 +26,7 @@
             "modifier": {
                 "name": "tiered:common_lance_1",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.15
+                "amount": 0.075
             },
             "optional_equipment_slots": [
                 "MAINHAND"

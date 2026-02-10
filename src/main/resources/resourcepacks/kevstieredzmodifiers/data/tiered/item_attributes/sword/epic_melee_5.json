@@ -28,7 +28,7 @@
       "type": "kevslibrary:multistrike_chance",
       "modifier": {
         "name": "tiered:epic_melee_5",
-        "operation": "ADD_VALUE",
+        "operation": "ADD_MULTIPLIED_BASE",
         "amount": 0.15
       },
       "optional_equipment_slots": [

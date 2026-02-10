@@ -41,7 +41,7 @@
             "modifier": {
                 "name": "tiered:legendary_armor_5",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.05
+                "amount": 0.04
             },
             "optional_equipment_slots": [
                 "FEET",
@@ -56,6 +56,20 @@
                 "name": "tiered:legendary_armor_5",
                 "operation": "ADD_MULTIPLIED_TOTAL",
                 "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
+        },
+        {
+            "type": "spell_engine:damage_taken",
+            "modifier": {
+                "name": "tiered:legendary_armor_5",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": -0.01
             },
             "optional_equipment_slots": [
                 "FEET",

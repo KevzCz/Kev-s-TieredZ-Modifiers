@@ -41,7 +41,7 @@
             "modifier": {
                 "name": "tiered:rare_armor_5",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.04
+                "amount": 0.025
             },
             "optional_equipment_slots": [
                 "FEET",

@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:precise",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.025
+                "amount": 0.01
             },
             "optional_accessories_slots": [
                 "anklet",

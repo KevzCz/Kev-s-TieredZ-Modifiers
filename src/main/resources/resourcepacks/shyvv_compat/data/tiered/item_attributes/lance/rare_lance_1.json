@@ -37,7 +37,7 @@
             "modifier": {
                 "name": "tiered:rare_lance_1",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.2
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND"

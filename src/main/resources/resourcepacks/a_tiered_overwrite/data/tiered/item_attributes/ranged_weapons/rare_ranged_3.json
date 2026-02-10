@@ -18,7 +18,7 @@
             "modifier": {
                 "name": "tiered:rare_ranged_3",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.075
+                "amount": 0.1
             },
             "optional_equipment_slots": [
                 "MAINHAND"

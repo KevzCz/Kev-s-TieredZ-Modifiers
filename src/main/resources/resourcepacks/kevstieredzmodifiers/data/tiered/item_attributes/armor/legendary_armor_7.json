@@ -63,6 +63,20 @@
                 "CHEST",
                 "HEAD"
             ]
+        },
+        {
+            "type": "spell_engine:damage_taken",
+            "modifier": {
+                "name": "tiered:legendary_armor_7",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": -0.01
+            },
+            "optional_equipment_slots": [
+                "FEET",
+                "LEGS",
+                "CHEST",
+                "HEAD"
+            ]
         }
     ]
 }

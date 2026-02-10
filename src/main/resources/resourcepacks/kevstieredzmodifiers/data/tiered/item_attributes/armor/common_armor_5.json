@@ -41,7 +41,7 @@
             "modifier": {
                 "name": "tiered:common_armor_5",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.025
+                "amount": 0.015
             },
             "optional_equipment_slots": [
                 "FEET",

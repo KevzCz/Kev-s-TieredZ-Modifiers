@@ -15,7 +15,7 @@
             "modifier": {
                 "name": "tiered:warding",
                 "operation": "ADD_MULTIPLIED_TOTAL",
-                "amount": 0.01
+                "amount": 0.02
             },
             "optional_accessories_slots": [
                 "anklet",

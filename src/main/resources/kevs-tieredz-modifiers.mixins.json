@@ -6,7 +6,6 @@
 		"KevsLibraryConfigMixin"
 	],
 	"client": [
-		"KevslibraryCompat"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -17,7 +17,7 @@
             "type": "kevslibrary:multistrike_chance",
             "modifier": {
                 "name": "tiered:epic_ranged_6",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.15
             },
             "optional_equipment_slots": [
@@ -29,7 +29,7 @@
             "modifier": {
                 "name": "tiered:epic_ranged_6",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.15
+                "amount": 0.125
             },
             "optional_equipment_slots": [
                 "MAINHAND"

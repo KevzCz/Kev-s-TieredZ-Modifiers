@@ -28,7 +28,7 @@
       "type": "kevslibrary:multistrike_chance",
       "modifier": {
         "name": "tiered:unique_melee_5",
-        "operation": "ADD_VALUE",
+        "operation": "ADD_MULTIPLIED_BASE",
         "amount": 0.3
       },
       "optional_equipment_slots": [

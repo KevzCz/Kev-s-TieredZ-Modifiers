@@ -14,7 +14,7 @@
             "type": "kevslibrary:pet_inheritance_ratio",
             "modifier": {
                 "name": "tiered:natural",
-                "operation": "ADD_VALUE",
+                "operation": "ADD_MULTIPLIED_BASE",
                 "amount": 0.05
             },
             "optional_accessories_slots": [

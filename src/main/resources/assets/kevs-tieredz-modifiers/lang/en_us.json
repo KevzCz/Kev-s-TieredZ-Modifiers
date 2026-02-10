@@ -56,6 +56,10 @@
   "tiered:precise.label": "Precise",
   "tiered:ruthless.label": "Ruthless",
   "tiered:ferocious.label": "Ferocious",
+  "tiered:hardened.label": "Hardened",
+  "tiered:lethal.label": "Lethal",
+  "tiered:volley.label": "Volley",
+  "tiered:sated.label": "Sated",
 
   "tiered:common_armor_5.label": "Common",
   "tiered:common_armor_6.label": "Common",
@@ -191,6 +195,30 @@
   "tiered:unique_melee_5.label": "Unique",
   "tiered:unique_melee_6.label": "Unique",
 
+  "tiered:common_melee_7.label": "Common",
+  "tiered:uncommon_melee_7.label": "Uncommon",
+  "tiered:rare_melee_7.label": "Rare",
+  "tiered:epic_melee_7.label": "Epic",
+  "tiered:legendary_melee_7.label": "Legendary",
+  "tiered:unique_melee_7.label": "Unique",
+
+  "tiered:unique_melee_8.label": "Unique",
+  "tiered:unique_melee_9.label": "Unique",
+  "tiered:unique_melee_10.label": "Unique",
+  "tiered:unique_melee_11.label": "Unique",
+  "tiered:unique_melee_12.label": "Unique",
+  "tiered:unique_melee_13.label": "Unique",
+
+  "tiered:unique_ranged_8.label": "Unique",
+  "tiered:unique_ranged_9.label": "Unique",
+
+  "tiered:common_ranged_7.label": "Common",
+  "tiered:uncommon_ranged_7.label": "Uncommon",
+  "tiered:rare_ranged_7.label": "Rare",
+  "tiered:epic_ranged_7.label": "Epic",
+  "tiered:legendary_ranged_7.label": "Legendary",
+  "tiered:unique_ranged_7.label": "Unique",
+
   "tiered:common_druid_1.label": "Common",
   "tiered:uncommon_druid_1.label": "Uncommon",
   "tiered:rare_druid_1.label": "Rare",
@@ -203,5 +231,7 @@
   "tiered:rare_building_wand_1.label": "Rare",
   "tiered:epic_building_wand_1.label": "Epic",
   "tiered:legendary_building_wand_1.label": "Legendary",
-  "tiered:unique_building_wand_1.label": "Unique"
+  "tiered:unique_building_wand_1.label": "Unique",
+    
+  "attribute.name.generic.hunger_consumption": "Hunger Consumption"
 }

@@ -33,11 +33,11 @@
             ]
         },
         {
-            "type": "critical_strike:chance",
+            "type": "kevslibrary:multistrike_chance",
             "modifier": {
                 "name": "tiered:rare_lance_2",
                 "operation": "ADD_MULTIPLIED_BASE",
-                "amount": 0.05
+                "amount": 0.15
             },
             "optional_equipment_slots": [
                 "MAINHAND"
