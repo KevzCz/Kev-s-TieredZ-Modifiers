@@ -1,0 +1,50 @@
+{
+    "id": "tiered:legendary_melee_7",
+    "verifiers": [
+        {
+            "tag": "minecraft:swords"
+        },
+        {
+            "tag": "minecraft:enchantable/sword"
+        }
+    ],
+    "weight": 50,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_speed",
+            "modifier": {
+                "name": "tiered:legendary_melee_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.06
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:legendary_melee_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.07
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:armor_penetration",
+            "modifier": {
+                "name": "tiered:legendary_melee_7",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

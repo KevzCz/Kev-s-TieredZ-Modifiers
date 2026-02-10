@@ -1,0 +1,61 @@
+{
+    "id": "tiered:unique_melee_8",
+    "verifiers": [
+        {
+            "tag": "minecraft:swords"
+        },
+        {
+            "tag": "minecraft:enchantable/sword"
+        }
+    ],
+    "weight": 0,
+    "style": {
+        "color": "light_purple"
+    },
+    "attributes": [
+        {
+            "type": "generic.attack_damage",
+            "modifier": {
+                "name": "tiered:unique_melee_8",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:cleave_chance",
+            "modifier": {
+                "name": "tiered:unique_melee_8",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:cleave_damage_multiplier",
+            "modifier": {
+                "name": "tiered:unique_melee_8",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.15
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:cleave_range",
+            "modifier": {
+                "name": "tiered:unique_melee_8",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.1
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

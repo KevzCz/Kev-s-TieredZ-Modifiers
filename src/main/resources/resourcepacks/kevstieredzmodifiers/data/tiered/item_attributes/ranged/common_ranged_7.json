@@ -1,0 +1,50 @@
+{
+    "id": "tiered:common_ranged_7",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/bow"
+        },
+        {
+            "tag": "minecraft:enchantable/crossbow"
+        }
+    ],
+    "weight": 50,
+    "style": {
+        "color": "gray"
+    },
+    "attributes": [
+        {
+            "type": "ranged_weapon:haste",
+            "modifier": {
+                "name": "tiered:common_ranged_7",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "ranged_weapon:damage",
+            "modifier": {
+                "name": "tiered:common_ranged_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.02
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:armor_penetration",
+            "modifier": {
+                "name": "tiered:common_ranged_7",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.05
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}

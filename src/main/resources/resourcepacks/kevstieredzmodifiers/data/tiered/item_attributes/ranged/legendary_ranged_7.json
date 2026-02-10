@@ -1,0 +1,50 @@
+{
+    "id": "tiered:legendary_ranged_7",
+    "verifiers": [
+        {
+            "tag": "minecraft:enchantable/bow"
+        },
+        {
+            "tag": "minecraft:enchantable/crossbow"
+        }
+    ],
+    "weight": 50,
+    "style": {
+        "color": "gold"
+    },
+    "attributes": [
+        {
+            "type": "ranged_weapon:haste",
+            "modifier": {
+                "name": "tiered:legendary_ranged_7",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "ranged_weapon:damage",
+            "modifier": {
+                "name": "tiered:legendary_ranged_7",
+                "operation": "ADD_MULTIPLIED_TOTAL",
+                "amount": 0.07
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        },
+        {
+            "type": "kevslibrary:armor_penetration",
+            "modifier": {
+                "name": "tiered:legendary_ranged_7",
+                "operation": "ADD_MULTIPLIED_BASE",
+                "amount": 0.175
+            },
+            "optional_equipment_slots": [
+                "MAINHAND"
+            ]
+        }
+    ]
+}
