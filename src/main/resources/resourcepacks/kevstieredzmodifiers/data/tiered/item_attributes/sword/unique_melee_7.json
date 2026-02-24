@@ -33,7 +33,7 @@
             },
             "optional_equipment_slots": [
                 "MAINHAND"
-            ]
+            ]   
         },
         {
             "type": "kevslibrary:armor_penetration",

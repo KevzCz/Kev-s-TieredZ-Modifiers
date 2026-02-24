@@ -231,7 +231,5 @@
   "tiered:rare_building_wand_1.label": "Rare",
   "tiered:epic_building_wand_1.label": "Epic",
   "tiered:legendary_building_wand_1.label": "Legendary",
-  "tiered:unique_building_wand_1.label": "Unique",
-    
-  "attribute.name.generic.hunger_consumption": "Hunger Consumption"
+  "tiered:unique_building_wand_1.label": "Unique"
 }
