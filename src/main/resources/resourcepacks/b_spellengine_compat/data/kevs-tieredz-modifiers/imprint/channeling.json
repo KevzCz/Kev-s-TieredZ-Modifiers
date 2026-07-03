@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:channeling",
+  "color": "#A0E0FF",
+  "name_key": "imprint.kevs-tieredz-modifiers.channeling.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.channeling",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "magic",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.01,
+      "value_max": 0.03,
+      "max_bonus": 0.12,
+      "value_display": "percent",
+      "attribute": "spell_power:haste",
+      "operation": "MULTIPLY_BASE",
+      "any_worn": true
+    }
+  ]
+}

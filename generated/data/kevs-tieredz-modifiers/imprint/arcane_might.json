@@ -1,0 +1,25 @@
+{
+  "id": "kevs-tieredz-modifiers:arcane_might",
+  "color": "#3E6CC4",
+  "name_key": "imprint.kevs-tieredz-modifiers.arcane_might.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.arcane_might",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "magic",
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.03,
+      "value_max": 0.06,
+      "max_bonus": 0.75,
+      "value_display": "percent",
+      "behavior": "tiered:universal_damage",
+      "params": {
+        "apply_melee": 0.0,
+        "apply_magic": 1.0,
+        "apply_ranged": 0.0
+      }
+    }
+  ]
+}

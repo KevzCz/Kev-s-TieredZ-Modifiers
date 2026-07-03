@@ -3,9 +3,15 @@
 	"package": "net.pixeldreamstudios.kevstieredzmodifiers.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"KevsLibraryConfigMixin"
+		"KevsLibraryConfigMixin",
+		"LivingEntityStunMixin",
+		"LivingEntityHealMixin",
+		"PersistentProjectileEntityMixin",
+		"TridentEntityMixin",
+		"TridentItemMixin"
 	],
 	"client": [
+		"client.EntityLookLockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

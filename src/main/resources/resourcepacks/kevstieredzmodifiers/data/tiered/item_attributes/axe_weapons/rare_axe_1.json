@@ -1,0 +1,36 @@
+{
+  "id": "tiered:rare_axe_1",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:rare_axe_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.13
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "kevslibrary:armor_penetration",
+      "modifier": {
+        "name": "tiered:rare_axe_1",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

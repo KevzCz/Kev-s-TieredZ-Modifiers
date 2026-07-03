@@ -1,0 +1,36 @@
+{
+  "id": "kevs-tieredz-modifiers:attuned",
+  "color": "#8E44AD",
+  "name_key": "imprint.kevs-tieredz-modifiers.attuned.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.attuned",
+  "groups": [
+    "weapon",
+    "magic"
+  ],
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "active_when": {
+    "equipped_item": {
+      "slot": "mainhand",
+      "any_tags": [
+        "#rpg_series:weapon_type/damage_wand",
+        "#rpg_series:weapon_type/damage_staff",
+        "#rpg_series:weapon_type/healing_wand",
+        "#rpg_series:weapon_type/healing_staff",
+        "#bards_rpg:lutes",
+        "#bards_rpg:lyres"
+      ]
+    }
+  },
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.01,
+      "value_max": 0.05,
+      "max_bonus": 0.5,
+      "value_display": "percent",
+      "behavior": "tiered:universal_damage"
+    }
+  ]
+}

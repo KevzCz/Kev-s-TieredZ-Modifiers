@@ -1,0 +1,32 @@
+{
+  "id": "kevs-tieredz-modifiers:sanctified",
+  "color": "#F1C40F",
+  "name_key": "imprint.kevs-tieredz-modifiers.sanctified.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.sanctified",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "groups": [
+    "weapon",
+    "magic"
+  ],
+  "active_when": {
+    "equipped_item": {
+      "slot": "mainhand",
+      "any_tags": [
+        "#rpg_series:weapon_type/healing_wand",
+        "#rpg_series:weapon_type/healing_staff"
+      ]
+    }
+  },
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.01,
+      "value_max": 0.05,
+      "max_bonus": 0.5,
+      "value_display": "percent",
+      "behavior": "kevs-tieredz-modifiers:wand_power"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:mending_light",
+  "color": "#C7D0DE",
+  "name_key": "imprint.kevs-tieredz-modifiers.mending_light.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.mending_light",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "magic",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.01,
+      "value_max": 0.05,
+      "max_bonus": 0.3,
+      "value_display": "percent",
+      "attribute": "spell_power:healing",
+      "operation": "MULTIPLY_TOTAL",
+      "any_worn": true
+    }
+  ]
+}

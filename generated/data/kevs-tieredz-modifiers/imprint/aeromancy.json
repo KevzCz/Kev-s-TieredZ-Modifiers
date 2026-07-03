@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:aeromancy",
+  "color": "#C8E0F0",
+  "name_key": "imprint.kevs-tieredz-modifiers.aeromancy.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.aeromancy",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "magic",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.01,
+      "value_max": 0.05,
+      "max_bonus": 0.3,
+      "value_display": "percent",
+      "attribute": "spell_power:air",
+      "operation": "MULTIPLY_TOTAL",
+      "any_worn": true
+    }
+  ]
+}

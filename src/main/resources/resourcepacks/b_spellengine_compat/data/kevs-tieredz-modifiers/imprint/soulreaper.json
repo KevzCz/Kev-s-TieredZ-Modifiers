@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:soulreaper",
+  "color": "#5A8C7A",
+  "name_key": "imprint.kevs-tieredz-modifiers.soulreaper.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.soulreaper",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "magic",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.01,
+      "value_max": 0.05,
+      "max_bonus": 0.3,
+      "value_display": "percent",
+      "attribute": "spell_power:soul",
+      "operation": "MULTIPLY_TOTAL",
+      "any_worn": true
+    }
+  ]
+}

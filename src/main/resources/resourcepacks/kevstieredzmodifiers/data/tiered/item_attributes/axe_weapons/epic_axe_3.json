@@ -1,0 +1,36 @@
+{
+  "id": "tiered:epic_axe_3",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "weight": 8,
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:epic_axe_3",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.162
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "critical_strike:chance",
+      "modifier": {
+        "name": "tiered:epic_axe_3",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.06
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

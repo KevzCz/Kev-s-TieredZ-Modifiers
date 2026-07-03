@@ -1,0 +1,16 @@
+{
+  "item": "tiered:rune_azure",
+  "color": "blue",
+  "skip_reforge": true,
+  "imprint_pools": [
+    {
+      "roll_min": 1,
+      "roll_max": 2,
+      "imprint_group": "magic",
+      "allow_duplicates": true
+    }
+  ],
+  "description": [
+    "item.tiered.rune_azure.lore"
+  ]
+}

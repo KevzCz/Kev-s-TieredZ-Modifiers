@@ -1,0 +1,50 @@
+{
+  "id": "tiered:epic_bard_2",
+  "verifiers": [
+    {
+      "tag": "bards_rpg:lutes"
+    },
+    {
+      "tag": "bards_rpg:lyres"
+    }
+  ],
+  "weight": 8,
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:critical_chance",
+      "modifier": {
+        "name": "tiered:epic_bard_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.09
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:healing",
+      "modifier": {
+        "name": "tiered:epic_bard_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.102
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "name": "tiered:epic_bard_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

@@ -23,10 +23,13 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-	modImplementation "maven.modrinth:libz:${libz_version}"
 	modImplementation "curse.maven:kevs-library-984932:7599460"
-	modImplementation name: 'tiered-1.1.3'
+	modImplementation name: 'tiered-1.1.8'
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// Soft dependency: compile against Spell Engine for spell_surge's cooldown-refund (touches SE internals).
+	// Runtime use is guarded by FabricLoader.isModLoaded("spell_engine") in isolated classes; not bundled.
+	modCompileOnly "maven.modrinth:spell-engine:${spell_engine_version}"
 }
 
 processResources {
@@ -39,6 +42,16 @@ processResources {
 
 tasks.withType(JavaCompile).configureEach {
 	it.options.release = 21
+}
+
+// Java autogeneration of this addon's imprint definition JSON into generated/data/kevs-tieredz-modifiers/.
+// Plain JavaExec (not Fabric datagen) so it never affects the mod build/runtime. Run: gradlew runKevsImprintDatagen
+tasks.register('runKevsImprintDatagen', JavaExec) {
+	group = 'kevstieredz'
+	description = 'Generates imprint definition JSON under generated/data/kevs-tieredz-modifiers/.'
+	dependsOn tasks.named('classes')
+	classpath = sourceSets.main.runtimeClasspath
+	mainClass = 'net.pixeldreamstudios.kevstieredzmodifiers.datagen.KevsImprintDatagen'
 }
 
 java {

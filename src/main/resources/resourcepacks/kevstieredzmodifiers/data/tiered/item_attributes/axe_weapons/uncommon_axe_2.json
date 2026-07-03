@@ -1,0 +1,36 @@
+{
+  "id": "tiered:uncommon_axe_2",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "weight": 35,
+  "style": {
+    "color": "dark_green"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:uncommon_axe_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.076
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "tiered:uncommon_axe_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.03
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

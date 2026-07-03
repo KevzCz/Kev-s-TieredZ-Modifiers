@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:hunters_focus",
+  "color": "#D08030",
+  "name_key": "imprint.kevs-tieredz-modifiers.hunters_focus.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.hunters_focus",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "combat",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.02,
+      "value_max": 0.06,
+      "max_bonus": 0.24,
+      "value_display": "percent",
+      "attribute": "critical_strike:damage",
+      "operation": "MULTIPLY_BASE",
+      "any_worn": true
+    }
+  ]
+}

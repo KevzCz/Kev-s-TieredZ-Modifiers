@@ -1,0 +1,23 @@
+{
+  "id": "kevs-tieredz-modifiers:culling_shot",
+  "color": "#7FA646",
+  "name_key": "imprint.kevs-tieredz-modifiers.culling_shot.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.culling_shot",
+  "combine": "HIGHEST",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "ranged",
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.5,
+      "value_max": 1,
+      "max_bonus": 2,
+      "value_display": "none",
+      "behavior": "kevs-tieredz-modifiers:projectile_execute",
+      "params": {
+        "heal_amount": 2
+      }
+    }
+  ]
+}

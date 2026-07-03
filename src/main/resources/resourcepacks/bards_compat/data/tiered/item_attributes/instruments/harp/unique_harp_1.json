@@ -1,0 +1,58 @@
+{
+  "id": "tiered:unique_harp_1",
+  "verifiers": [
+    {
+      "tag": "bards_rpg:harp_crossbows"
+    }
+  ],
+  "weight": 0,
+  "style": {
+    "color": "light_purple"
+  },
+  "attributes": [
+    {
+      "type": "ranged_weapon:damage",
+      "modifier": {
+        "name": "tiered:unique_harp_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.2
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "critical_strike:chance",
+      "modifier": {
+        "name": "tiered:unique_harp_1",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.14
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:healing",
+      "modifier": {
+        "name": "tiered:unique_harp_1",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.24
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "name": "tiered:unique_harp_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.1
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

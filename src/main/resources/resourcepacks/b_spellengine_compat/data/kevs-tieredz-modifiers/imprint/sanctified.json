@@ -1,0 +1,35 @@
+{
+  "id": "kevs-tieredz-modifiers:sanctified",
+  "color": "#F1C40F",
+  "name_key": "imprint.kevs-tieredz-modifiers.sanctified.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.sanctified",
+  "groups": [
+    "weapon",
+    "magic"
+  ],
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "active_when": {
+    "equipped_item": {
+      "slot": "mainhand",
+      "any_tags": [
+        "#rpg_series:weapon_type/healing_wand",
+        "#rpg_series:weapon_type/healing_staff",
+        "#bards_rpg:lutes",
+        "#bards_rpg:lyres",
+        "#bards_rpg:harp_crossbows"
+      ]
+    }
+  },
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.005,
+      "value_max": 0.025,
+      "max_bonus": 0.25,
+      "value_display": "percent",
+      "behavior": "kevs-tieredz-modifiers:wand_power"
+    }
+  ]
+}

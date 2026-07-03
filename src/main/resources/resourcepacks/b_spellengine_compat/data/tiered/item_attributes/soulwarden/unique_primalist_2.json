@@ -1,0 +1,42 @@
+{
+  "id": "tiered:unique_primalist_2",
+  "verifiers": [
+    {
+      "tag": "kevs-tieredz-modifiers:primalist_armor"
+    }
+  ],
+  "weight": 0,
+  "style": {
+    "color": "light_purple"
+  },
+  "attributes": [
+    {
+      "type": "kevslibrary:pet_inheritance_ratio",
+      "modifier": {
+        "name": "tiered:unique_primalist_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.19
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    },
+    {
+      "type": "tiered:generic.durable",
+      "modifier": {
+        "name": "tiered:unique_primalist_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.35
+      },
+      "optional_equipment_slots": [
+        "FEET",
+        "LEGS",
+        "CHEST",
+        "HEAD"
+      ]
+    }
+  ]
+}

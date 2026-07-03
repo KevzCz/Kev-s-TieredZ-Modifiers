@@ -1,0 +1,25 @@
+{
+  "id": "kevs-tieredz-modifiers:honed_edge",
+  "color": "#C0C0C0",
+  "name_key": "imprint.kevs-tieredz-modifiers.honed_edge.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.honed_edge",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "weapon",
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.03,
+      "value_max": 0.06,
+      "max_bonus": 0.75,
+      "value_display": "percent",
+      "behavior": "tiered:universal_damage",
+      "params": {
+        "apply_melee": 1.0,
+        "apply_magic": 0.0,
+        "apply_ranged": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "tiered:epic_axe_4",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "weight": 8,
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "kevslibrary:armor_penetration",
+      "modifier": {
+        "name": "tiered:epic_axe_4",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.12
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "tiered:epic_axe_4",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

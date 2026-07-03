@@ -1,0 +1,50 @@
+{
+  "id": "tiered:uncommon_bard_2",
+  "verifiers": [
+    {
+      "tag": "bards_rpg:lutes"
+    },
+    {
+      "tag": "bards_rpg:lyres"
+    }
+  ],
+  "weight": 35,
+  "style": {
+    "color": "dark_green"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:critical_chance",
+      "modifier": {
+        "name": "tiered:uncommon_bard_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.04
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:healing",
+      "modifier": {
+        "name": "tiered:uncommon_bard_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.048
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:generic",
+      "modifier": {
+        "name": "tiered:uncommon_bard_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.06
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

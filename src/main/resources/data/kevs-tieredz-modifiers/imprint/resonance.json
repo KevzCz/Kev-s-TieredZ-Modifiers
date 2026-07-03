@@ -1,0 +1,134 @@
+{
+  "id": "kevs-tieredz-modifiers:resonance",
+  "color": "#E8C36B",
+  "name_key": "imprint.kevs-tieredz-modifiers.resonance.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.resonance",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "weapon",
+  "abilities": [
+    {
+      "mastered_when": "tiered:honed",
+      "ability": "kevs-tieredz-modifiers:warlust",
+      "tier_params": {
+        "tier_1": { "rage_threshold": 20, "heal_fraction": 0.10, "damage_bonus_pct": 0.15, "kb_ignore_chance": 0.20, "cone_cd_ticks": 1200, "cone_cd_reduction": 10, "rage_decay_ticks": 160, "warlust_ticks": 1200 },
+        "tier_2": { "rage_threshold": 15, "heal_fraction": 0.15, "damage_bonus_pct": 0.20, "kb_ignore_chance": 0.30, "cone_cd_ticks": 1000, "cone_cd_reduction": 20, "rage_decay_ticks": 160, "warlust_ticks": 1200 },
+        "tier_3": { "rage_threshold": 10, "heal_fraction": 0.25, "damage_bonus_pct": 0.30, "kb_ignore_chance": 0.50, "cone_cd_ticks": 800, "cone_cd_reduction": 30, "rage_decay_ticks": 160, "warlust_ticks": 1200 },
+        "tier_4": { "rage_threshold": 8,  "heal_fraction": 0.35, "damage_bonus_pct": 0.40, "kb_ignore_chance": 0.60, "cone_cd_ticks": 500, "cone_cd_reduction": 40, "rage_decay_ticks": 160, "warlust_ticks": 1200 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.warlust.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.warlust",
+        "color": "#B03030"
+      }
+    },
+    {
+      "mastered_when": "tiered:rending",
+      "ability": "kevs-tieredz-modifiers:maul",
+      "tier_params": {
+        "tier_1": { "proc_every": 4, "bonus_fraction": 0.35, "stun_ticks": 16, "fissure_chance": 0.20 },
+        "tier_2": { "proc_every": 4, "bonus_fraction": 0.45, "stun_ticks": 22, "fissure_chance": 0.30 },
+        "tier_3": { "proc_every": 4, "bonus_fraction": 0.55, "stun_ticks": 30, "fissure_chance": 0.40 },
+        "tier_4": { "proc_every": 3, "bonus_fraction": 0.65, "stun_ticks": 40, "fissure_chance": 0.50 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.maul.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.maul",
+        "color": "#C8772E"
+      }
+    },
+    {
+      "mastered_when": "tiered:crushing",
+      "ability": "kevs-tieredz-modifiers:aftershock",
+      "tier_params": {
+        "tier_1": { "smash_threshold": 1.5, "wave_interval": 20, "wave1_frac": 0.15, "wave2_frac": 0.30, "wave3_frac": 0.60, "radius1": 1.5, "radius2": 3.0, "radius3": 4.5, "stun_ticks": 15 },
+        "tier_2": { "smash_threshold": 1.5, "wave_interval": 20, "wave1_frac": 0.20, "wave2_frac": 0.40, "wave3_frac": 0.80, "radius1": 2.0, "radius2": 4.0, "radius3": 6.0, "stun_ticks": 20 },
+        "tier_3": { "smash_threshold": 1.5, "wave_interval": 18, "wave1_frac": 0.25, "wave2_frac": 0.50, "wave3_frac": 1.00, "radius1": 2.5, "radius2": 5.0, "radius3": 7.5, "stun_ticks": 25 },
+        "tier_4": { "smash_threshold": 1.0, "wave_interval": 16, "wave1_frac": 0.30, "wave2_frac": 0.60, "wave3_frac": 1.20, "radius1": 3.0, "radius2": 6.0, "radius3": 9.0, "stun_ticks": 30 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.aftershock.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.aftershock",
+        "color": "#A07040"
+      }
+    },
+    {
+      "mastered_when": "tiered:piercing",
+      "ability": "kevs-tieredz-modifiers:tempest",
+      "tier_params": {
+        "tier_1": { "charge_required": 4, "homing_radius": 5.0, "max_chain": 2, "chain_damage": 4.0 },
+        "tier_2": { "charge_required": 3, "homing_radius": 5.5, "max_chain": 3, "chain_damage": 5.0 },
+        "tier_3": { "charge_required": 3, "homing_radius": 6.0, "max_chain": 3, "chain_damage": 6.0 },
+        "tier_4": { "charge_required": 2, "homing_radius": 7.0, "max_chain": 4, "chain_damage": 8.0 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.tempest.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.tempest",
+        "color": "#5B9BD5"
+      }
+    },
+    {
+      "mastered_when": "kevs-tieredz-modifiers:barbed",
+      "ability": "kevs-tieredz-modifiers:siege_shot",
+      "tier_params": {
+        "tier_1": { "recharge_ticks": 700, "shot_reduction_ticks": 40, "damage_bonus": 2.5, "shockwave_radius": 3.0, "aoe_damage_fraction": 0.75 },
+        "tier_2": { "recharge_ticks": 600, "shot_reduction_ticks": 50, "damage_bonus": 3.5, "shockwave_radius": 3.5, "aoe_damage_fraction": 0.85 },
+        "tier_3": { "recharge_ticks": 500, "shot_reduction_ticks": 55, "damage_bonus": 5.0, "shockwave_radius": 4.5, "aoe_damage_fraction": 1.00 },
+        "tier_4": { "recharge_ticks": 400, "shot_reduction_ticks": 60, "damage_bonus": 7.0, "shockwave_radius": 6.0, "aoe_damage_fraction": 1.00 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.siege.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.siege",
+        "color": "#7D9B5A"
+      }
+    },
+    {
+      "mastered_when": "kevs-tieredz-modifiers:attuned",
+      "ability": "kevs-tieredz-modifiers:overflow",
+      "tier_params": {
+        "tier_1": { "max_stacks": 6,  "per_stack": 0.02, "decay_ticks": 50, "halo_chance": 0.35, "halo_count": 3, "halo_life": 160, "orbit_radius": 1.4, "orbit_height": 2.0, "orbit_speed": 0.07, "release_range": 8.0,  "launch_speed": 1.2 },
+        "tier_2": { "max_stacks": 8,  "per_stack": 0.03, "decay_ticks": 60, "halo_chance": 0.40, "halo_count": 3, "halo_life": 180, "orbit_radius": 1.5, "orbit_height": 2.1, "orbit_speed": 0.08, "release_range": 9.0,  "launch_speed": 1.3 },
+        "tier_3": { "max_stacks": 12, "per_stack": 0.04, "decay_ticks": 70, "halo_chance": 0.50, "halo_count": 4, "halo_life": 200, "orbit_radius": 1.6, "orbit_height": 2.2, "orbit_speed": 0.08, "release_range": 10.0, "launch_speed": 1.4 },
+        "tier_4": { "max_stacks": 16, "per_stack": 0.05, "decay_ticks": 80, "halo_chance": 0.60, "halo_count": 5, "halo_life": 240, "orbit_radius": 1.8, "orbit_height": 2.4, "orbit_speed": 0.09, "release_range": 12.0, "launch_speed": 1.6 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.overflow.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.overflow",
+        "color": "#8E44AD"
+      }
+    },
+    {
+      "mastered_when": "kevs-tieredz-modifiers:sanctified",
+      "ability": "kevs-tieredz-modifiers:requiem",
+      "tier_params": {
+        "tier_1": { "stacks_required": 10, "window_ticks": 100, "heal_coeff": 0.5, "damage_cap": 12, "radius3": 4.5, "heal_buff_min": 0.05, "heal_buff_max": 0.20, "heal_buff_hold_ticks": 100 },
+        "tier_2": { "stacks_required": 10, "window_ticks": 100, "heal_coeff": 0.6, "damage_cap": 16, "radius3": 5.0, "heal_buff_min": 0.05, "heal_buff_max": 0.25, "heal_buff_hold_ticks": 100 },
+        "tier_3": { "stacks_required": 10, "window_ticks": 90, "heal_coeff": 0.7, "damage_cap": 22, "radius3": 5.5, "heal_buff_min": 0.05, "heal_buff_max": 0.28, "heal_buff_hold_ticks": 100 },
+        "tier_4": { "stacks_required": 10, "window_ticks": 80, "heal_coeff": 0.75, "damage_cap": 30, "radius3": 6.0, "heal_buff_min": 0.05, "heal_buff_max": 0.30, "heal_buff_hold_ticks": 100 }
+      },
+      "plate": {
+        "name_key": "imprint.kevs-tieredz-modifiers.resonance.requiem.name",
+        "line_key": "imprint.kevs-tieredz-modifiers.resonance.requiem",
+        "color": "#F1C40F"
+      }
+    }
+  ],
+  "types": [
+    {
+      "type": "behavioral",
+      "value": 1,
+      "max_stacks": 4,
+      "max_bonus": 4,
+      "value_display": "none",
+      "behavior": "kevs-tieredz-modifiers:resonance",
+      "params": {
+        "target_hostiles": 1,
+        "target_neutrals": 1,
+        "target_players": 0,
+        "target_owner_pets": 0,
+        "target_self": 0
+      }
+    }
+  ]
+}

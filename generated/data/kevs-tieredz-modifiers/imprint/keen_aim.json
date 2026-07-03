@@ -1,0 +1,25 @@
+{
+  "id": "kevs-tieredz-modifiers:keen_aim",
+  "color": "#8FBF6A",
+  "name_key": "imprint.kevs-tieredz-modifiers.keen_aim.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.keen_aim",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "ranged",
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.03,
+      "value_max": 0.06,
+      "max_bonus": 0.75,
+      "value_display": "percent",
+      "behavior": "tiered:universal_damage",
+      "params": {
+        "apply_melee": 0.0,
+        "apply_magic": 0.0,
+        "apply_ranged": 1.0
+      }
+    }
+  ]
+}

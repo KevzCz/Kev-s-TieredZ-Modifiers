@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.pixeldreamstudios.kevstieredzmodifiers.mixin.compat",
+	"compatibilityLevel": "JAVA_21",
+	"plugin": "net.pixeldreamstudios.kevstieredzmodifiers.mixin.compat.SpellEngineMixinPlugin",
+	"mixins": [
+		"SpellProjectileMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

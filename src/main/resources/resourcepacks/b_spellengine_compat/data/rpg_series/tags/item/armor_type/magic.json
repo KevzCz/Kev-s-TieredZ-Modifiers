@@ -1,0 +1,84 @@
+{
+  "values": [
+    {
+      "id": "brimstone-battlemages:netherite_battlemage_head",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:netherite_battlemage_chest",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:netherite_battlemage_legs",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:netherite_battlemage_feet",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:elite_battlemage_head",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:elite_battlemage_chest",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:elite_battlemage_legs",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:elite_battlemage_feet",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:ashen_battlemage_head",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:ashen_battlemage_chest",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:ashen_battlemage_legs",
+      "required": false
+    },
+    {
+      "id": "brimstone-battlemages:ashen_battlemage_feet",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_head",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_chest",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_legs",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_feet",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_netherite_head",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_netherite_chest",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_netherite_legs",
+      "required": false
+    },
+    {
+      "id": "soulwarden:primalist_netherite_feet",
+      "required": false
+    }
+  ]
+}

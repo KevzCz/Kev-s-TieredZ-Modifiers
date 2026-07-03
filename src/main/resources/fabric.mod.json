@@ -18,17 +18,24 @@
 	"entrypoints": {
 		"main": [
 			"net.pixeldreamstudios.kevstieredzmodifiers.KevsTieredZModifiers"
+		],
+		"client": [
+			"net.pixeldreamstudios.kevstieredzmodifiers.client.KevsClient"
+		],
+		"tiered_more:addon": [
+			"net.pixeldreamstudios.kevstieredzmodifiers.KevsTieredAddon"
 		]
 	},
 	"mixins": [
-		"kevs-tieredz-modifiers.mixins.json"
+		"kevs-tieredz-modifiers.mixins.json",
+		"kevs-tieredz-modifiers.spellengine.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"tiered_more": ">=1.1.1",
+		"tiered_more": ">=1.1.8",
 		"kevslibrary": ">=1.6.2",
 		"critical_strike": "*",
 		"ranged_weapon_api": "*"
@@ -37,6 +44,7 @@
 		"tiered": "*"
 	},
 	"suggests": {
-		"kevs-attributes-panel": "*"
+		"kevs-attributes-panel": "*",
+		"spell_engine": "*"
 	}
 }

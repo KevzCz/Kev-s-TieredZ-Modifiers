@@ -5,13 +5,18 @@ import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
 import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.util.Identifier;
+import net.pixeldreamstudios.kevstieredzmodifiers.entity.ModEntities;
+import net.pixeldreamstudios.kevstieredzmodifiers.net.ModNetworking;
 
 public class KevsTieredZModifiers implements ModInitializer {
 	public static final String MOD_ID = "kevs-tieredz-modifiers";
 
 	@Override
 	public void onInitialize() {
-		// TIERED OVERRIDE
+
+		ModEntities.init();
+		ModNetworking.init();
+
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			ResourceManagerHelper.registerBuiltinResourcePack(
 					Identifier.of(MOD_ID, "a_tiered_overwrite"),
@@ -26,7 +31,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 					ResourcePackActivationType.ALWAYS_ENABLED
 			);
 		});
-		// NEW MODIFIERS
+
 		FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 			ResourceManagerHelper.registerBuiltinResourcePack(
 					Identifier.of(MOD_ID, "kevstieredzmodifiers"),
@@ -34,7 +39,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 					ResourcePackActivationType.ALWAYS_ENABLED
 			);
 		});
-		// SPELL POWER COMPAT
+
 		if (FabricLoader.getInstance().isModLoaded("spell_power")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
@@ -58,7 +63,17 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
-		// DRUIDS COMPAT
+
+		if (FabricLoader.getInstance().isModLoaded("spell_engine")) {
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "b_spellengine_compat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+		}
+
 		if (FabricLoader.getInstance().isModLoaded("druids")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
@@ -68,7 +83,17 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
-		// BUILDING WANDS COMPAT
+
+		if (FabricLoader.getInstance().isModLoaded("bards_rpg")) {
+			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
+				ResourceManagerHelper.registerBuiltinResourcePack(
+						Identifier.of(MOD_ID, "bards_compat"),
+						modContainer,
+						ResourcePackActivationType.ALWAYS_ENABLED
+				);
+			});
+		}
+
 		if (FabricLoader.getInstance().isModLoaded("wands")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
@@ -78,7 +103,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
-		// MYTHIC METALS COMPAT
+
 		if (FabricLoader.getInstance().isModLoaded("mythicmetals")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(
@@ -88,7 +113,7 @@ public class KevsTieredZModifiers implements ModInitializer {
 				);
 			});
 		}
-		// SHYVV'S TRIALS COMPAT
+
 		if (FabricLoader.getInstance().isModLoaded("shyvvtrials")) {
 			FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer -> {
 				ResourceManagerHelper.registerBuiltinResourcePack(

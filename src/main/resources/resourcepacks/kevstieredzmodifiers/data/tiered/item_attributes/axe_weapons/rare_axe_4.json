@@ -1,0 +1,36 @@
+{
+  "id": "tiered:rare_axe_4",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "weight": 15,
+  "style": {
+    "color": "blue"
+  },
+  "attributes": [
+    {
+      "type": "kevslibrary:armor_penetration",
+      "modifier": {
+        "name": "tiered:rare_axe_4",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.09
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "generic.attack_speed",
+      "modifier": {
+        "name": "tiered:rare_axe_4",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.06
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

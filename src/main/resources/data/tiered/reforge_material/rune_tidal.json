@@ -1,0 +1,16 @@
+{
+  "item": "tiered:rune_tidal",
+  "color": "aqua",
+  "skip_reforge": true,
+  "imprint_pools": [
+    {
+      "roll_min": 1,
+      "roll_max": 2,
+      "imprint_group": "ranged",
+      "allow_duplicates": true
+    }
+  ],
+  "description": [
+    "item.tiered.rune_tidal.lore"
+  ]
+}

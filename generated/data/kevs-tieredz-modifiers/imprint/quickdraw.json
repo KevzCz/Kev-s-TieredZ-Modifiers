@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:quickdraw",
+  "color": "#B6D335",
+  "name_key": "imprint.kevs-tieredz-modifiers.quickdraw.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.quickdraw",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "ranged",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.01,
+      "value_max": 0.03,
+      "max_bonus": 0.12,
+      "value_display": "percent",
+      "attribute": "ranged_weapon:haste",
+      "operation": "MULTIPLY_BASE",
+      "any_worn": true
+    }
+  ]
+}

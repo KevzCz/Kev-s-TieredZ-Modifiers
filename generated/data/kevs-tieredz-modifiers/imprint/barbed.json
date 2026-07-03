@@ -1,0 +1,32 @@
+{
+  "id": "kevs-tieredz-modifiers:barbed",
+  "color": "#7D9B5A",
+  "name_key": "imprint.kevs-tieredz-modifiers.barbed.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.barbed",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "groups": [
+    "weapon",
+    "ranged"
+  ],
+  "active_when": {
+    "equipped_item": {
+      "slot": "mainhand",
+      "any_tags": [
+        "#minecraft:enchantable/bow",
+        "#minecraft:enchantable/crossbow"
+      ]
+    }
+  },
+  "types": [
+    {
+      "type": "behavioral",
+      "value_min": 0.01,
+      "value_max": 0.05,
+      "max_bonus": 0.5,
+      "value_display": "percent",
+      "behavior": "tiered:universal_damage"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "tiered:uncommon_axe_1",
+  "verifiers": [
+    {
+      "tag": "minecraft:axes"
+    }
+  ],
+  "weight": 35,
+  "style": {
+    "color": "dark_green"
+  },
+  "attributes": [
+    {
+      "type": "generic.attack_damage",
+      "modifier": {
+        "name": "tiered:uncommon_axe_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.09
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "kevslibrary:armor_penetration",
+      "modifier": {
+        "name": "tiered:uncommon_axe_1",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.05
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

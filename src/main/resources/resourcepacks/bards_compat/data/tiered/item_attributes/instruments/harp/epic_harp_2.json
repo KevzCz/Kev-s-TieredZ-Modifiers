@@ -1,0 +1,47 @@
+{
+  "id": "tiered:epic_harp_2",
+  "verifiers": [
+    {
+      "tag": "bards_rpg:harp_crossbows"
+    }
+  ],
+  "weight": 8,
+  "style": {
+    "color": "dark_purple"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:healing",
+      "modifier": {
+        "name": "tiered:epic_harp_2",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.15
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "ranged_weapon:damage",
+      "modifier": {
+        "name": "tiered:epic_harp_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.084
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "name": "tiered:epic_harp_2",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.07
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}

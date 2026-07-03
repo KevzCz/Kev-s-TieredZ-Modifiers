@@ -1,0 +1,22 @@
+{
+  "id": "kevs-tieredz-modifiers:deadeye",
+  "color": "#E0C040",
+  "name_key": "imprint.kevs-tieredz-modifiers.deadeye.name",
+  "line_key": "imprint.kevs-tieredz-modifiers.deadeye",
+  "combine": "ADDITIVE",
+  "multiplicity": "SLOT",
+  "reapply": "HIGHEST",
+  "group": "combat",
+  "types": [
+    {
+      "type": "attribute",
+      "value_min": 0.01,
+      "value_max": 0.03,
+      "max_bonus": 0.12,
+      "value_display": "percent",
+      "attribute": "critical_strike:chance",
+      "operation": "MULTIPLY_BASE",
+      "any_worn": true
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "tiered:legendary_bard_1",
+  "verifiers": [
+    {
+      "tag": "bards_rpg:lutes"
+    },
+    {
+      "tag": "bards_rpg:lyres"
+    }
+  ],
+  "weight": 2,
+  "style": {
+    "color": "gold"
+  },
+  "attributes": [
+    {
+      "type": "spell_power:healing",
+      "modifier": {
+        "name": "tiered:legendary_bard_1",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.22
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:generic",
+      "modifier": {
+        "name": "tiered:legendary_bard_1",
+        "operation": "ADD_MULTIPLIED_BASE",
+        "amount": 0.09
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    },
+    {
+      "type": "spell_power:haste",
+      "modifier": {
+        "name": "tiered:legendary_bard_1",
+        "operation": "ADD_MULTIPLIED_TOTAL",
+        "amount": 0.08
+      },
+      "optional_equipment_slots": [
+        "MAINHAND"
+      ]
+    }
+  ]
+}
