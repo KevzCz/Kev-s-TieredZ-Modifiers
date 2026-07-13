@@ -24,7 +24,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "curse.maven:kevs-library-984932:7599460"
-	modImplementation name: 'tiered-1.1.8'
+	modImplementation name: 'tiered-1.2.1'
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Soft dependency: compile against Spell Engine for spell_surge's cooldown-refund (touches SE internals).

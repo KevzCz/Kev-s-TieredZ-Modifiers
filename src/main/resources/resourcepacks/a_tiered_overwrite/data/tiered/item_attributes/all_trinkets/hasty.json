@@ -5,7 +5,13 @@
             "tag": "accessories_compat_layer:all_trinkets_items"
         },
         {
-            "tag": "accessories_compat_layer:all_curios_items"
+            "custom": "tiered:all_trinkets_items"
+        },
+        {
+            "custom": "tiered:all_curios_items"
+        },
+        {
+            "custom": "tiered:all_accessories_items"
         }
     ],
     "weight": 50,
@@ -21,6 +27,9 @@
                 "amount": 0.05
             },
             "optional_accessories_slots": [
+                "all_accessories",
+                "all_trinkets",
+                "all_curios",
                 "accessory",
                 "anklet",
                 "any",
