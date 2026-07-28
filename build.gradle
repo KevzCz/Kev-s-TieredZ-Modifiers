@@ -97,7 +97,7 @@ unifiedPublishing {
         gameLoaders = ["fabric"]
 
         mainPublication tasks.remapJar
-        displayName = "Kev's TieredZ Modifiers [${project.name.toUpperCase()}] [${rootProject.minecraft_version}] - [${project.version}]"
+        displayName = "Kev's TieredZ Modifiers [FABRIC] [${rootProject.minecraft_version}] - [${project.version}]"
 
         releaseType = "release"
 
@@ -131,10 +131,6 @@ tasks.matching { it.name.startsWith("modrinth") }.configureEach {
 ext.CURSEFORGE_ENVIRONMENT_IDS = ["Client": 9638, "Server": 9639]
 
 gradle.taskGraph.whenReady {
-    // allprojects, not subprojects: in a single-project build (no `include` in
-    // settings.gradle) the upload task lives on the root project itself, so
-    // iterating only subprojects would patch nothing and let CurseForge reject
-    // the upload with error 1021.
     rootProject.allprojects.each { sub ->
         sub.tasks.matching { it.getClass().name.contains("CurseUploadTask") }.each { task ->
             task.actions.clear()
