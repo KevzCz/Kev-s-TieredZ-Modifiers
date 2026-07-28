@@ -1,4 +1,5 @@
 plugins {
+    id "me.shedaniel.unified-publishing" version "0.1.+"
 	id 'fabric-loom' version "${loom_version}"
 	id 'maven-publish'
 }
@@ -24,7 +25,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "curse.maven:kevs-library-984932:7599460"
-	modImplementation name: 'tiered-1.2.1'
+	modImplementation name: 'tiered-1.2.5'
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Soft dependency: compile against Spell Engine for spell_surge's cooldown-refund (touches SE internals).
@@ -88,4 +89,79 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
+}
+
+unifiedPublishing {
+    project {
+        gameVersions = ["1.21.1"]
+        gameLoaders = ["fabric"]
+
+        mainPublication tasks.remapJar
+        displayName = "Kev's TieredZ Modifiers [${project.name.toUpperCase()}] [${rootProject.minecraft_version}] - [${project.version}]"
+
+        releaseType = "release"
+
+        def changelogFile = rootProject.file("CHANGELOG.md")
+        def changelogText = changelogFile.exists() ? changelogFile.text : ""
+        changelog = changelogText.trim().isEmpty() ? "No changelog provided." : changelogText
+
+        var cfToken = project.findProperty("cfToken") ?: System.getenv("CF_TOKEN")
+        if (cfToken != null) {
+            curseforge {
+                token = cfToken
+                id = "972997"
+                gameVersions = ["1.21.1", "Java 21"]
+            }
+        }
+
+        var mrToken = project.findProperty("modrinthToken") ?: System.getenv("MODRINTH_TOKEN")
+        if (mrToken != null) {
+            modrinth {
+                token = mrToken
+                id = "Bb3Fi2JX"
+            }
+        }
+    }
+}
+
+tasks.matching { it.name.startsWith("modrinth") }.configureEach {
+    group = "upload"
+}
+
+ext.CURSEFORGE_ENVIRONMENT_IDS = ["Client": 9638, "Server": 9639]
+
+gradle.taskGraph.whenReady {
+    // allprojects, not subprojects: in a single-project build (no `include` in
+    // settings.gradle) the upload task lives on the root project itself, so
+    // iterating only subprojects would patch nothing and let CurseForge reject
+    // the upload with error 1021.
+    rootProject.allprojects.each { sub ->
+        sub.tasks.matching { it.getClass().name.contains("CurseUploadTask") }.each { task ->
+            task.actions.clear()
+            task.doLast {
+                def loader = task.getClass().getClassLoader()
+                def versions = Class.forName("com.matthewprenger.cursegradle.CurseVersions", true, loader)
+                def util = Class.forName("com.matthewprenger.cursegradle.Util", true, loader)
+                def artifact = task.mainArtifact
+
+                artifact.resolve(task.project)
+                versions.initialize(task.apiKey)
+
+                def field = versions.getDeclaredField("gameVersions")
+                field.setAccessible(true)
+                def nameToId = field.get(null)
+                rootProject.CURSEFORGE_ENVIRONMENT_IDS.each { name, id -> nameToId.put(name, id) }
+
+                def tags = new ArrayList(artifact.gameVersionStrings)
+                tags.addAll(rootProject.CURSEFORGE_ENVIRONMENT_IDS.keySet())
+
+                def resolved = artifact.getClass().getDeclaredField("gameVersions")
+                resolved.setAccessible(true)
+                resolved.set(artifact, versions.resolveGameVersion(tags))
+
+                task.uploadFile(util.gson.toJson(artifact), artifact.artifact as File)
+                task.logger.lifecycle("Uploaded ${artifact.artifact.name} to CurseForge with tags ${tags}")
+            }
+        }
+    }
 }
